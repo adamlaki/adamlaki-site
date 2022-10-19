@@ -3,10 +3,17 @@
 
 @use 'sprucecss/scss/spruce';
 
+:root {
+  @include spruce.set-css-variable((
+    --container-width: spruce.$container-width,
+    --container-gap: spruce.spacer-clamp(s, l)
+  ));
+}
+
 .layout {
   &__inner {
     display: grid;
     grid-template-columns: 20rem 1fr;
-    padding-block: spruce.spacer(m);
+    padding-block: spruce.get-css-variable(--container-gap);
   }
 }

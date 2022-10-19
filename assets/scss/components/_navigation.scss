@@ -1,0 +1,13 @@
+@use 'sprucecss/scss/spruce';
+
+.site-navigation {
+  font-family: spruce.$font-family-heading;
+
+  ul {
+    @include spruce.clear-list;
+  }
+
+  a {
+    color: spruce.color(text);
+  }
+}

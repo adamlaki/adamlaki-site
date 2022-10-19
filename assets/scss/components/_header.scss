@@ -1,17 +1,15 @@
 @use 'sprucecss/scss/spruce';
 
-.header {
-  padding: spruce.spacer(l) 0;
+.site-header {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: spruce.spacer(m);
+  min-height: calc(100vh - #{spruce.get-css-variable(--container-gap)} * 2);
 
-  &__container {
-    @include spruce.layout-center(clamp(spruce.spacer(m), 5vw, spruce.spacer(l)));
-  }
-
-  &__inner {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: spruce.spacer(m);
+  &__logo {
+    height: 6rem;
+    width: auto;
   }
 }

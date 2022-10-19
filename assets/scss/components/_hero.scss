@@ -1,6 +1,10 @@
 @use 'sprucecss/scss/spruce';
 
 .site-hero {
+  &__inner {
+    @include spruce.layout-stack(m);
+  }
+
   &__introduction {
     font-size: spruce.responsive-font-size(4rem);
     line-height: spruce.$line-height-heading;

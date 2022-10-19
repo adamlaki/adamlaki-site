@@ -5,6 +5,8 @@
 
   &__inner {
     background-color: spruce.color(heading);
+    color: hsl(0 0% 100%);
+    padding: spruce.get-css-variable(--container-gap);
   }
 
   &__copyright {
