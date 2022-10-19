@@ -1,0 +1,27 @@
+block variables
+-var time = Date.now();
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Spruce CSS Starter Kit - #{title}
+    link(rel='icon' href='../../assets/img/favicon.png' sizes='32x32')
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin)
+    link(href='https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap' rel='stylesheet')
+    link(rel='stylesheet' href=`../../assets/css/main.css?time=${time}`)
+
+    block styles
+  body
+    div(class='layout')
+      div(class='container container--wide')
+        div(class='layout__inner')
+          include components/header
+          main(id='content' class='layout__body')
+            block content
+            include components/footer
+
+    include ../../assets/icon/icons.svg
+    script(src='../../assets/js/main.js')

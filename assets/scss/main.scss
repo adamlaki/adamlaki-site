@@ -1,0 +1,12 @@
+@forward 'config';
+@forward 'components';
+
+@use 'sprucecss/scss/spruce';
+
+.layout {
+  &__inner {
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    padding-block: spruce.spacer(m);
+  }
+}
