@@ -11,7 +11,13 @@
   inset-block-start: spruce.get-css-variable(--container-gap);
 
   &__logo {
-    height: 6rem;
+    height: 7rem;
     width: auto;
+  }
+
+  &__helper {
+    display: flex;
+    flex-direction: column;
+    gap: spruce.spacer(m);
   }
 }

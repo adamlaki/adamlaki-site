@@ -1,5 +1,6 @@
 @forward 'config';
 @forward 'components';
+@forward 'content';
 
 @use 'sprucecss/scss/spruce';
 
@@ -20,8 +21,9 @@
 
   &__body {
     @include spruce.layout-stack(xxl);
-    max-width: 55rem;
     margin-inline: auto;
+    max-width: 100%;
+    width: 55rem;
   }
 }
 
@@ -37,6 +39,7 @@
   @include spruce.layout-stack(xs);
   background-color: #000000;
   background-color: #fff3e6;
+  background-color: #f9f9f9;
   // color: hsl(0 0% 100%);
   color: #000000;
   padding: spruce.spacer(l);
@@ -45,9 +48,26 @@
 
   h2 {
     // color: hsl(0 0% 100%);
+    font-family: spruce.$font-family-base;
   }
 
   &:hover {
     color: spruce.color(text);
   }
+}
+
+.text-btn {
+  align-items: center;
+  display: inline-flex;
+  gap: spruce.spacer(s);
+  text-decoration: none;
+
+  &__icon {
+    height: 1em;
+    width: 1em;
+  }
+}
+
+.lead {
+  line-height: spruce.$line-height-heading;
 }

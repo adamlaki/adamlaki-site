@@ -3,5 +3,8 @@
     <symbol id="arrow-forward" viewBox="0 0 24 24">
       <path d="M12,0l-2.115,2.115l8.37,8.385l-18.255,0l-0,3l18.255,0l-8.37,8.385l2.115,2.115l12,-12l-12,-12Z" fill="currentColor"/>
     </symbol>
+    <symbol id="arrow-out" viewBox="0 0 24 24">
+      <path d="M1.961,24l-1.961,-1.961l19.237,-19.237l-17.649,-0l-0,-2.802l22.412,0l-0,22.412l-2.802,0l0,-17.649l-19.237,19.237Z" fill="currentColor"/>
+    </symbol>
   </defs>
 </svg>

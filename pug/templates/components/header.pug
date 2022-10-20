@@ -4,13 +4,17 @@ header(class='site-header')
   a(href='index.html')
     img(src='../../assets/img/adam-laki-logo.svg' alt='Spruce CSS' width='140' class='site-header__logo')
   // p My wife said I have to place something here.
-  nav(class="site-navigation")
-    ul
+  div(class='site-header__helper')
+    nav(class="site-navigation")
+      ul
+        li
+          a(href='index.html') Home
+        li
+          a(href='about.html') About
+        li
+          a(href='blog.html') Blog
+    ul(class='lang-switcher')
       li
-        a(href='#') Home
+        a(aria-current='page' href='https://sarvar.hu/en/' hreflang='en' aria-label='English') en
       li
-        a(href='#') About
-      li
-        a(href='#') Blog
-      li
-        a(href='#') Contact
+        a(href='https://sarvar.hu' hreflang='hu' aria-label='Magyar') hu

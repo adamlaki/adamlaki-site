@@ -1,5 +1,6 @@
 @use 'sprucecss/scss/spruce' with (
   $color-black: hsl(0 0% 0%),
+  // $color-primary: hsl(358 88% 62%),
   $color-primary: hsl(210 100% 45%),
   $colors: (
     base: (
@@ -10,10 +11,11 @@
     prefix: adam
   ),
   $font-size-base: 1.1375rem,
+  $font-size-lead: clamp(1.7rem, 2vw + 1rem, 2rem),
   $border-radius-sm: 0,
   $border-radius-lg: 0,
   $font-family-base: #{'Figtree', sans-serif},
   $font-family-heading: #{'Space Mono', monospace},
   $container-width: 50rem,
-  $line-height-heading: calc(2px + 2.5ex + 2px)
+  $line-height-heading: calc(2px + 2.75ex + 2px)
 );

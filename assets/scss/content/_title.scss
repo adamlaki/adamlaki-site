@@ -1,0 +1,5 @@
+@use 'sprucecss/scss/spruce';
+
+.post-title {
+  font-size: spruce.responsive-font-size(5rem);
+}

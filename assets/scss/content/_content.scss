@@ -1,0 +1,49 @@
+@use 'sprucecss/scss/spruce';
+
+.post {
+  margin-inline: auto;
+
+  &-title {
+    margin-block: spruce.spacer(xl) spruce.spacer(m);
+  }
+}
+
+.post-content {
+  @include spruce.layout-stack;
+
+  > * {
+    max-width: 55ch;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: spruce.$font-family-base;
+  }
+
+  * + h1,
+  * + h2,
+  * + h3,
+  * + h4,
+  * + h5,
+  * + h6 {
+    margin-top: spruce.spacer(l);
+  }
+
+  h1 + *,
+  h2 + *,
+  h3 + *,
+  h4 + *,
+  h5 + *,
+  h6 + * {
+    margin-top: spruce.spacer(s);
+  }
+
+  img,
+  iframe {
+    border-radius: spruce.$border-radius-sm;
+  }
+}

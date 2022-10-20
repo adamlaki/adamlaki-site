@@ -1,0 +1,42 @@
+extends ../layout.pug
+
+block variables
+  -var title = 'Home'
+
+block content
+  div(class='post')
+    h1(class='post-title') Blog
+    div(class='blog-list')
+      div(class='blog-card')
+        h2 Spruce CSS Introduction
+        div(class='blog-card__meta')
+          span(class="category-links") #[a(href="https://pineco.de/category/css/" class="category-link") CSS], #[a(href="https://pineco.de/category/sass/" class="category-link") Sass]
+          span(class="posted-on")
+            span(class="sr-only") Posted on
+            time(datetime="2022-03-29T15:57:30+02:00") Mar 29, 2022
+      div(class='blog-card')
+        h2 Should We Open Links in a New Tab?
+        div(class='blog-card__meta')
+          span(class="category-links")
+            a(href="https://pineco.de/category/css/" class="category-link") Accessibility
+          span(class="posted-on")
+            span(class="sr-only") Posted on
+            time(datetime="2022-03-29T15:57:30+02:00") Jan 31, 2022
+      div(class='blog-card')
+        h2 Update npm Dependencies
+        div(class='blog-card__meta')
+          span(class="category-links")
+            a(href="https://pineco.de/category/css/" class="category-link") Tools
+          span(class="posted-on")
+            span(class="sr-only") Posted on
+            time(datetime="2022-03-29T15:57:30+02:00") Jan 3, 2022
+      div(class='blog-card')
+        h2 Design Systems Book – A Great Starting Point
+        div(class='blog-card__meta')
+          span(class="category-links")
+            a(href="https://pineco.de/category/css/" class="category-link") Reading List
+          span(class="posted-on")
+            span(class="sr-only") Posted on
+            time(datetime="2022-03-29T15:57:30+02:00") Oct 2, 2021
+
+
