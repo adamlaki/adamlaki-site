@@ -1,5 +1,6 @@
 @use 'sprucecss/scss/spruce' with (
   $color-black: hsl(0 0% 0%),
+  $color-primary: hsl(210 100% 45%),
   $colors: (
     base: (
       text: hsl(0 0% 0%)
@@ -8,7 +9,7 @@
   $settings: (
     prefix: adam
   ),
-  $font-size-base: 1.2375rem,
+  $font-size-base: 1.1375rem,
   $font-size-ratio: 1.333,
   $border-radius-sm: 0,
   $border-radius-lg: 0,

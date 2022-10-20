@@ -6,8 +6,4 @@
   ul {
     @include spruce.clear-list;
   }
-
-  a {
-    color: spruce.color(text);
-  }
 }

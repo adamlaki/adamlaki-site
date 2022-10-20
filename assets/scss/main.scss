@@ -30,14 +30,18 @@
 }
 
 .project {
-  @include spruce.layout-stack(s);
-  border-block-start: 0.5rem solid spruce.color(text);
-  color: spruce.color(text);
-  padding-block-start: spruce.spacer(m);
+  @include spruce.layout-stack(xs);
+  background-color: #000000;
+  color: hsl(0 0% 100%);
+  padding: spruce.spacer(l);
   text-decoration: none;
+  border-radius: 0 3rem 3rem 3rem;
+
+  h2 {
+    color: hsl(0 0% 100%);
+  }
 
   &:hover {
-    background-color: #FFCE3B;
     color: spruce.color(text);
   }
 }
