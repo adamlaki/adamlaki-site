@@ -26,19 +26,25 @@
 }
 
 .projects {
-  @include spruce.layout-grid(l, 20rem);
+  @include spruce.layout-stack(m);
+
+  &__inner {
+    @include spruce.layout-grid(l, 20rem);
+  }
 }
 
 .project {
   @include spruce.layout-stack(xs);
   background-color: #000000;
-  color: hsl(0 0% 100%);
+  background-color: #fff3e6;
+  // color: hsl(0 0% 100%);
+  color: #000000;
   padding: spruce.spacer(l);
   text-decoration: none;
   border-radius: 0 3rem 3rem 3rem;
 
   h2 {
-    color: hsl(0 0% 100%);
+    // color: hsl(0 0% 100%);
   }
 
   &:hover {
