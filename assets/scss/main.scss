@@ -12,8 +12,32 @@
 
 .layout {
   &__inner {
+    align-items: flex-start;
     display: grid;
-    grid-template-columns: 20rem 1fr;
+    grid-template-columns: 10rem 1fr;
     padding-block: spruce.get-css-variable(--container-gap);
+  }
+
+  &__body {
+    @include spruce.layout-stack(xxl);
+    max-width: 55rem;
+    margin-inline: auto;
+  }
+}
+
+.projects {
+  @include spruce.layout-grid(l, 20rem);
+}
+
+.project {
+  @include spruce.layout-stack(s);
+  border-block-start: 0.5rem solid spruce.color(text);
+  color: spruce.color(text);
+  padding-block-start: spruce.spacer(m);
+  text-decoration: none;
+
+  &:hover {
+    background-color: #FFCE3B;
+    color: spruce.color(text);
   }
 }

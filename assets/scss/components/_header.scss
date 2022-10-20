@@ -7,6 +7,8 @@
   justify-content: space-between;
   gap: spruce.spacer(m);
   min-height: calc(100vh - #{spruce.get-css-variable(--container-gap)} * 2);
+  position: sticky;
+  inset-block-start: spruce.get-css-variable(--container-gap);
 
   &__logo {
     height: 6rem;

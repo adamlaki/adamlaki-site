@@ -1,6 +1,9 @@
 @use 'sprucecss/scss/spruce';
 
 .footer {
+  display: flex;
+  gap: spruce.spacer(m);
+  justify-content: space-between;
   padding: spruce.spacer(l) 0;
 
   &__inner {
@@ -12,5 +15,13 @@
   &__copyright {
     margin-bottom: 0;
     margin-top: 0;
+  }
+}
+
+.block {
+  @include spruce.layout-stack(xxs);
+
+  &__title {
+    font-size: spruce.$font-size-base;
   }
 }
