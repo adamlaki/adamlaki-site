@@ -1,7 +1,7 @@
 @use 'sprucecss/scss/spruce';
 
 .blog-list {
-  @include spruce.layout-stack(m);
+  @include spruce.layout-stack(l);
   margin-block-start: spruce.spacer(l);
 }
 
