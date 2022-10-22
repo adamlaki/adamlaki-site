@@ -1007,7 +1007,7 @@ samp {
   margin-inline: auto;
 }
 .post-title {
-  margin-block: 4.5rem 1.5rem;
+  margin-block: 3rem 1.5rem;
 }
 
 .post-content > * {
@@ -1016,6 +1016,11 @@ samp {
 }
 .post-content > * + * {
   margin-block-start: 1.5rem;
+}
+.post-content > p:first-child {
+  font-size: clamp(1.7rem, 2vw + 1rem, 2rem);
+  line-height: calc(2px + 2.75ex + 2px);
+  max-width: 100%;
 }
 .post-content > * {
   max-width: 55ch;
@@ -1052,8 +1057,4 @@ samp {
 :root {
   --adam-container-width: 50rem;
   --adam-container-gap: clamp(1rem, 5vw, 3rem);
-}
-
-.lead {
-  line-height: calc(2px + 2.75ex + 2px);
 }

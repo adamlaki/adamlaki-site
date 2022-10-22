@@ -4,12 +4,18 @@
   margin-inline: auto;
 
   &-title {
-    margin-block: spruce.spacer(xl) spruce.spacer(m);
+    margin-block: spruce.spacer(l) spruce.spacer(m);
   }
 }
 
 .post-content {
   @include spruce.layout-stack;
+
+  > p:first-child {
+    font-size: spruce.$font-size-lead;
+    line-height: spruce.$line-height-heading;
+    max-width: 100%;
+  }
 
   > * {
     max-width: 55ch;
