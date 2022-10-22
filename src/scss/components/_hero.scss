@@ -4,6 +4,7 @@
   @include spruce.layout-stack(m);
 
   &__introduction {
+    @include spruce.layout-stack(m);
     font-size: spruce.responsive-font-size(2rem);
     line-height: spruce.$line-height-heading;
   }

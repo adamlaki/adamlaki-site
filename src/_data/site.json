@@ -1,7 +1,10 @@
 {
   "name": "Adam Laki",
+  "profession": "Front-end Developer",
   "slogen": "Front-end developer and accessibility specialist.",
   "url": "https://adamlaki.com",
+  "twitter": "https://twitter.com/_iamadam",
+  "github": "https://github.com/adamlaki",
   "authorName": "Adam Laki",
   "authorEmail": "info@adamlaki.com"
 }

@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="footer-info-card">
-    <h3 class="footer-info-card__title">Adam Laki</h3>
-    <p class="footer-info-card__value">Front-end Developer</p>
+    <h3 class="footer-info-card__title">{{ site.name }}</h3>
+    <p class="footer-info-card__value">{{ site.profession }}</p>
   </div>
   <div class="footer-info-card">
     <h3 class="footer-info-card__title">Contact</h3>
@@ -9,6 +9,6 @@
   </div>
   <div class="footer-info-card">
     <h3 class="footer-info-card__title">Social</h3>
-    <p class="footer-info-card__value"><a href="#">Twitter</a>,  <a href="#">GitHub</a></p>
+    <p class="footer-info-card__value"><a href="{{ site.twitter }}">Twitter</a>,  <a href="{{ site.github }}">GitHub</a></p>
   </div>
 </footer>

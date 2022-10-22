@@ -895,6 +895,13 @@ samp {
   font-size: clamp(1.7rem, 2vw + 1rem, 2rem);
   line-height: calc(2px + 2.75ex + 2px);
 }
+.site-hero__introduction > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.site-hero__introduction > * + * {
+  margin-block-start: 1.5rem;
+}
 
 .projects > * {
   margin-block-end: 0;
