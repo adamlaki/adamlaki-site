@@ -1,0 +1,18 @@
+<div class="site-hero">
+  <div class="container">
+    <div class="site-hero__inner">
+      <div class="site-hero__caption">
+        <h1 class="site-hero__title">{{ hero.title }}</h1>
+        <p class="site-hero__description">{{ hero.description }}</p>
+        {% if hero.buttons %}
+          <div class="site-hero__btns">
+            {% for button in hero.buttons %}
+              <a class="btn btn--primary btn--lg" href="{{ button.url }}">{{ button.caption }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+      <img class="site-hero__img" src="/img/hero.svg" alt="{{ hero.alt }}" width="626" height="373">
+    </div>
+  </div>
+</div>

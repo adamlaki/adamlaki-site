@@ -1,0 +1,22 @@
+{% extends "layouts/base.html" %}
+
+{% set recommendedHowToUse = helpers.getSiblingContent(collections.howToUse, page) %}}}
+
+{% block content %}
+  {% include "partials/site-header.html" %}
+  <div class="l-page">
+    <div class="container--narrow">
+      {% include "partials/page-heading.html" %}
+      <div class="l-page__inner">
+        <div class="post-content">
+          {{ content | safe }}
+
+          {% if page.url.includes('adatvedelem') %}
+            {% include "partials/cookies.html" %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include "partials/support.html" %}
+{% endblock %}

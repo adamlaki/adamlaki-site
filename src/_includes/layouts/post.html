@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+
+{% set recommendedHowToUse = helpers.getSiblingContent(collections.howToUse, page) %}}}
+
+{% block content %}
+  {% include "partials/site-header.html" %}
+  <div class="l-page l-page--sidebar">
+    <div class="container">
+      <div class="page-heading">
+        <h1 class="page-heading__title">{{ title }}</h1>
+      </div>
+      <div class="l-page__inner">
+        <div class="post-content">
+          {{ content | safe }}
+        </div>
+        <div class="l-page__sidebar">
+          {% if recommendedHowToUse | length %}
+            <div class="widget">
+              <h2 class="widget__title">További bejegyzések</h2>
+              <div class="widget__inner">
+                {% for post in recommendedHowToUse %}
+                  {% include "partials/how-to-use-article.html" %}
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include "partials/support.html" %}
+{% endblock %}
