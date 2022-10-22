@@ -1,0 +1,18 @@
+@use 'sprucecss/scss/spruce';
+
+.layout {
+  &__inner {
+    align-items: flex-start;
+    display: grid;
+    gap: spruce.spacer(m);
+    grid-template-columns: 10rem 1fr;
+    padding-block: spruce.get-css-variable(--container-gap);
+  }
+
+  &__body {
+    @include spruce.layout-stack(xxl);
+    margin-inline: auto;
+    max-width: 55rem;
+    width: 100%;
+  }
+}

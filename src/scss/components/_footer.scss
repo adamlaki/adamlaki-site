@@ -2,11 +2,12 @@
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
   gap: spruce.spacer(m);
   justify-content: space-between;
 }
 
-.block {
+.footer-info-card {
   @include spruce.layout-stack(xxs);
 
   &__title {

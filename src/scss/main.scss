@@ -1,4 +1,5 @@
 @forward 'config';
+@forward 'layout';
 @forward 'components';
 @forward 'content';
 
@@ -9,63 +10,6 @@
     --container-width: spruce.$container-width,
     --container-gap: spruce.spacer-clamp(s, l)
   ));
-}
-
-.layout {
-  &__inner {
-    align-items: flex-start;
-    display: grid;
-    grid-template-columns: 10rem 1fr;
-    padding-block: spruce.get-css-variable(--container-gap);
-  }
-
-  &__body {
-    @include spruce.layout-stack(xxl);
-    margin-inline: auto;
-    max-width: 100%;
-    width: 55rem;
-  }
-}
-
-.projects {
-  @include spruce.layout-stack(m);
-
-  &__inner {
-    @include spruce.layout-grid(l, 20rem);
-  }
-}
-
-.project {
-  @include spruce.layout-stack(xs);
-  background-color: #000000;
-  background-color: #fff3e6;
-  background-color: #f9f9f9;
-  // color: hsl(0 0% 100%);
-  color: #000000;
-  padding: spruce.spacer(l);
-  text-decoration: none;
-  border-radius: 0 3rem 3rem 3rem;
-
-  h2 {
-    // color: hsl(0 0% 100%);
-    font-family: spruce.$font-family-base;
-  }
-
-  &:hover {
-    color: spruce.color(text);
-  }
-}
-
-.text-btn {
-  align-items: center;
-  display: inline-flex;
-  gap: spruce.spacer(s);
-  text-decoration: none;
-
-  &__icon {
-    height: 1em;
-    width: 1em;
-  }
 }
 
 .lead {
