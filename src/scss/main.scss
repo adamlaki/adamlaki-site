@@ -11,3 +11,9 @@
     --container-gap: spruce.spacer-clamp(s, l)
   ));
 }
+
+body {
+  @include spruce.breakpoint(md) {
+    font-size: 1.1375rem;
+  }
+}
