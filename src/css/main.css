@@ -988,14 +988,14 @@ samp {
   justify-content: space-between;
 }
 
-.footer-info-card > * {
+.info-card > * {
   margin-block-end: 0;
   margin-block-start: 0;
 }
-.footer-info-card > * + * {
+.info-card > * + * {
   margin-block-start: 0.25rem;
 }
-.footer-info-card__title {
+.info-card__title {
   font-size: 1.1375rem;
 }
 

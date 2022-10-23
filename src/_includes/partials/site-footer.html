@@ -1,14 +1,14 @@
 <footer class="footer">
-  <div class="footer-info-card">
-    <h3 class="footer-info-card__title">{{ site.name }}</h3>
-    <p class="footer-info-card__value">{{ site.profession }}</p>
+  <div class="info-card">
+    <h3 class="info-card__title">{{ site[lang].name }}</h3>
+    <p class="info-card__value">{{ site[lang].profession }}</p>
   </div>
-  <div class="footer-info-card">
-    <h3 class="footer-info-card__title">Contact</h3>
-    <p class="footer-info-card__value"><a href="mailto:{{ site.authorEmail }}">{{ site.authorEmail }}</a></p>
+  <div class="info-card">
+    <h3 class="info-card__title">{{ i18n[lang].contact }}</h3>
+    <p class="info-card__value"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
   </div>
-  <div class="footer-info-card">
-    <h3 class="footer-info-card__title">Social</h3>
-    <p class="footer-info-card__value"><a href="{{ site.twitter }}">Twitter</a>,  <a href="{{ site.github }}">GitHub</a></p>
+  <div class="info-card">
+    <h3 class="info-card__title">{{ i18n[lang].social }}</h3>
+    <p class="info-card__value"><a href="{{ site.twitter }}">Twitter</a>,  <a href="{{ site.github }}">GitHub</a></p>
   </div>
 </footer>

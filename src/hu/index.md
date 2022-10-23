@@ -4,14 +4,14 @@ layout: "layouts/home.html"
 metaDesc: "[HU desc]"
 coverImage: /img/front-cover.svg
 projects:
-  title: "Projects"
+  title: "Projektek"
   cards:
     - title: "Spruce CSS"
-      description: "A low-level, lightweight and modern CSS design system, authoring tool built on Sass."
+      description: "Egy kicsi, modern CSS framework, szerzői eszköz Sass-on felépítve."
     - title: "Byte-Sizes Acessibility"
-      description: "Learn something new about accessibility with short and solid articles (less than 150 words)."
+      description: "Tanulj az akadálymentesítésről rövid és tömör cikkek segítségével (kevesebb, mint 150 szó)."
     - title: "Root"
-      description: "Root is an admin package for Laravel applications with extension support."
+      description: "Root egy Laravel adminisztrációs csomag applikációkhoz."
 ---
 
 Helló, Ádám vagyok, **akadálymentes, modern weboldalakat és alkalmazásokat készítek.** I make Spruce CSS and contribute to Root. I like static sites; I primarily work with 11ty, Gatsby and WordPress.
