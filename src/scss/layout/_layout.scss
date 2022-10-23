@@ -4,15 +4,24 @@
   &__inner {
     align-items: flex-start;
     display: grid;
-    gap: spruce.spacer(m);
-    grid-template-columns: 10rem 1fr;
+    gap: spruce.spacer(l);
+    grid-template-columns: minmax(0, 1fr);
     padding-block: spruce.get-css-variable(--container-gap);
+
+    @include spruce.breakpoint(sm) {
+      grid-template-columns: minmax(0, 10rem) minmax(0, 1fr);
+    }
   }
 
   &__body {
-    @include spruce.layout-stack(xxl);
+    --spacer: #{spruce.spacer(l)};
+    @include spruce.layout-stack(var(--spacer));
     margin-inline: auto;
     max-width: 55rem;
     width: 100%;
+
+    @include spruce.breakpoint(sm) {
+      --spacer: #{spruce.spacer(xxl)};
+    }
   }
 }
