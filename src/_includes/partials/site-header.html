@@ -1,11 +1,11 @@
 <header class="site-header">
   <a href="{{ helpers.getHomeUrl(lang) }}">
-    <img class="site-header__logo" src="/img/adam-laki-logo.svg" alt="Adam Laki" height="112" width="93">
+    <img class="site-header__logo" src="/img/adam-laki-logo.svg" alt="{{ site[lang].name }}" height="112" width="93">
   </a>
   <div class="site-header__helper">
     <nav class="site-navigation">
       <ul>
-        {% for item in navigation.items %}
+        {% for item in navigation[lang].items %}
         <li>
           <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
             >{{ item.text }}</a

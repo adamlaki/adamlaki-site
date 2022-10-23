@@ -1,16 +1,30 @@
 {
-  "items": [
-    {
-      "text": "Home",
-      "url": "/"
-    },
-    {
-      "text": "About",
-      "url": "/about/"
-    },
-    {
-      "text": "Blog",
-      "url": "/blog/"
-    }
-  ]
+  "en": {
+    "items": [
+      {
+        "text": "Home",
+        "url": "/"
+      },
+      {
+        "text": "About",
+        "url": "/about/"
+      },
+      {
+        "text": "Blog",
+        "url": "/blog/"
+      }
+    ]
+  },
+  "hu": {
+    "items": [
+      {
+        "text": "Kezdőlap",
+        "url": "/hu/"
+      },
+      {
+        "text": "Rólam",
+        "url": "/hu/rolam/"
+      }
+    ]
+  }
 }
