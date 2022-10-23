@@ -5,9 +5,13 @@
   <div class="site-header__helper">
     <nav class="site-navigation">
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/blog">Blog</a></li>
+        {% for item in navigation.items %}
+        <li>
+          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+            >{{ item.text }}</a
+          >
+        </li>
+        {% endfor %}
       </ul>
     </nav>
     <ul class="lang-switcher">
