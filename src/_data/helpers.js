@@ -20,6 +20,26 @@ module.exports = {
 
     return response;
   },
+  getActiveLang(currentLang, lang) {
+    let response = '';
+
+    if (currentLang === lang) {
+      response = ' aria-current="page"';
+    }
+
+    return response;
+  },
+  getHomeUrl(lang) {
+    let response = '';
+
+    if ('en' === lang) {
+      response = '/';
+    } else {
+      response = `/${lang}/`
+    }
+
+    return response;
+  },
   /**
    * Filters out the passed item from the passed collection
    * and randomises and limits them based on flags

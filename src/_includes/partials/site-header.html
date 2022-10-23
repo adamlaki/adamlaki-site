@@ -1,5 +1,5 @@
 <header class="site-header">
-  <a href="/">
+  <a href="{{ helpers.getHomeUrl(lang) }}">
     <img class="site-header__logo" src="/img/adam-laki-logo.svg" alt="Adam Laki" height="112" width="93">
   </a>
   <div class="site-header__helper">
@@ -14,9 +14,6 @@
         {% endfor %}
       </ul>
     </nav>
-    <ul class="lang-switcher">
-      <li><a aria-current="page" href="#" hreflang="en" aria-label="English">en</a></li>
-      <li><a href="#" hreflang="hu" aria-label="Magyar">hu</a></li>
-    </ul>
+    {% include "partials/lang-switcher.html" %}
   </div>
 </header>
