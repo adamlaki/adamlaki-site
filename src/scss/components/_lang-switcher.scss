@@ -27,7 +27,7 @@
       background-color: hsl(0 0% 98%);
     }
 
-    &[aria-current='page'] {
+    &[data-state='active'] {
       background-color: spruce.color(text);
       color: hsl(0 0% 100%);
     }

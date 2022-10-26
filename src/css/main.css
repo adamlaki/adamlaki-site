@@ -912,7 +912,7 @@ samp {
 .lang-switcher a:hover {
   background-color: hsl(0deg, 0%, 98%);
 }
-.lang-switcher a[aria-current=page] {
+.lang-switcher a[data-state=active] {
   background-color: var(--adam-base-color-text);
   color: hsl(0deg, 0%, 100%);
 }

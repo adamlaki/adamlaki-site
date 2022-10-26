@@ -24,7 +24,7 @@ module.exports = {
     let response = '';
 
     if (currentLang === lang) {
-      response = ' aria-current="page"';
+      response = ' data-state="active"';
     }
 
     return response;
