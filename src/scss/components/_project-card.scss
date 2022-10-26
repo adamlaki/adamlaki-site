@@ -1,20 +1,9 @@
 @use 'sprucecss/scss/spruce';
 
-.projects {
-  @include spruce.layout-stack(m);
-
-  &__inner {
-    --spacer: #{spruce.spacer(m)};
-    @include spruce.layout-grid(var(--spacer), 20rem);
-
-    @include spruce.breakpoint(md) {
-      --spacer: #{spruce.spacer(l)};
-    }
-  }
-}
-
-.project {
+.project-card {
   --border-radius: clamp(0.5rem, 2vw, 3rem);
+
+  @include spruce.a11y-card-link('.project-card__link', true);
   @include spruce.layout-stack(xs);
   background-color: hsl(0 0% 98%);
   border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
@@ -22,11 +11,18 @@
   padding: spruce.spacer-clamp(m, l);
   text-decoration: none;
 
-  h2 {
+  &__title {
     font-family: spruce.$font-family-base;
+    font-size: spruce.font-size(h4);
   }
 
-  &:hover {
+  &__link {
     color: spruce.color(text);
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: spruce.color(text);
+    }
   }
 }

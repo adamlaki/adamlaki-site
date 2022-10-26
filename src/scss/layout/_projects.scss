@@ -1,0 +1,14 @@
+@use 'sprucecss/scss/spruce';
+
+.l-projects {
+  @include spruce.layout-stack(m);
+
+  &__inner {
+    --spacer: #{spruce.spacer(m)};
+    @include spruce.layout-grid(var(--spacer), 20rem);
+
+    @include spruce.breakpoint(md) {
+      --spacer: #{spruce.spacer(l)};
+    }
+  }
+}

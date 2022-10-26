@@ -18,12 +18,12 @@
   <body>
     <a class="btn btn--primary skip-link" href="#content">Skip to Content</a>
 
-    <div class="layout">
+    <div class="l-main">
       <div class="container container--wide">
-        <div class="layout__inner">
+        <div class="l-main__inner">
           {% include "partials/site-header.html" %}
 
-          <main class="layout__body" id="content">
+          <main class="l-main__body" id="content">
             {% block content %}{% endblock %}
             {% include "partials/site-footer.html" %}
           </main>

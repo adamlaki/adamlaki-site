@@ -2,15 +2,18 @@
 title: "Kezdőlap"
 layout: "layouts/home.html"
 metaDesc: "[HU desc]"
-coverImage: /img/front-cover.svg
+coverImage: "/img/front-cover.svg"
 projects:
   title: "Projektek"
   cards:
     - title: "Spruce CSS"
+      url: "https://sprucecss.com"
       description: "Egy kicsi, modern CSS framework, szerzői eszköz Sass-on felépítve."
     - title: "Byte-Sizes Acessibility"
+      url: "https://bite-sized-a11y.com/"
       description: "Tanulj az akadálymentesítésről rövid és tömör cikkek segítségével (kevesebb, mint 150 szó)."
     - title: "Root"
+      url: "https://root.conedevelopment.com/"
       description: "Root egy Laravel adminisztrációs csomag applikációkhoz."
 ---
 

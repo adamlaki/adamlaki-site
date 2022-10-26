@@ -1,11 +1,15 @@
-<div class="projects">
+<div class="l-projects">
   <h2 class="section-title h3">{{ projects.title }}</h2>
-  <div class="projects__inner">
+  <div class="l-projects__inner">
     {% if projects.cards %}
       {% for card in projects.cards %}
-        <div class="project">
-          <h2 class="h4">{{ card.title }}</h2>
-          <p>{{ card.description }}</p>
+        <div class="project-card">
+          <h2 class="project-card__title">
+            <a href="{{ card.url }}" class="project-card__link">
+              {{ card.title }}
+            </a>
+          </h2>
+          <p class="project-card__description">{{ card.description }}</p>
         </div>
       {% endfor %}
     {% endif %}
