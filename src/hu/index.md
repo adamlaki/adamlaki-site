@@ -17,4 +17,4 @@ projects:
       description: "Root egy Laravel adminisztrációs csomag applikációkhoz."
 ---
 
-Helló, Ádám vagyok, **akadálymentes, modern weboldalakat és alkalmazásokat készítek.** I make Spruce CSS and contribute to Root. I like static sites; I primarily work with 11ty, Gatsby and WordPress.
+# Helló, Ádám vagyok, **akadálymentes, modern weboldalakat és alkalmazásokat készítek.** I make Spruce CSS and contribute to Root. I like static sites; I primarily work with 11ty, Gatsby and WordPress.

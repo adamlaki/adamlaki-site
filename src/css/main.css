@@ -940,16 +940,18 @@ samp {
 .site-hero > * + * {
   margin-block-start: 1.5rem;
 }
-.site-hero__introduction {
-  font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
-  line-height: calc(2px + 2.75ex + 2px);
-}
 .site-hero__introduction > * {
   margin-block-end: 0;
   margin-block-start: 0;
 }
 .site-hero__introduction > * + * {
   margin-block-start: 1.5rem;
+}
+.site-hero__introduction h1 {
+  font-family: Figtree, sans-serif;
+  font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
+  font-weight: 400;
+  line-height: calc(2px + 2.75ex + 2px);
 }
 
 .project-card {

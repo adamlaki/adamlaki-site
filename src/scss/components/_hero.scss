@@ -5,7 +5,12 @@
 
   &__introduction {
     @include spruce.layout-stack(m);
-    font-size: spruce.responsive-font-size(2rem, 40);
-    line-height: spruce.$line-height-heading;
+
+    h1 {
+      font-family: spruce.$font-family-base;
+      font-size: spruce.responsive-font-size(2rem, 40);
+      font-weight: 400;
+      line-height: spruce.$line-height-heading;
+    }
   }
 }

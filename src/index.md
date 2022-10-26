@@ -18,4 +18,4 @@ projects:
       description: "Root is an admin package for Laravel applications with extension support."
 ---
 
-Hey, I'm Adam; **I develop accessible and modern sites and applications.** I make Spruce CSS and contribute to Root. I like static sites; I primarily work with 11ty, Gatsby and WordPress.
+# Hey, I'm Adam; **I develop accessible and modern sites and applications.** I make Spruce CSS and contribute to Root. I like static sites; I primarily work with 11ty, Gatsby and WordPress.
