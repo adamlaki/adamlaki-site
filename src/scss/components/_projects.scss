@@ -17,10 +17,10 @@
   --border-radius: clamp(0.5rem, 2vw, 3rem);
   @include spruce.layout-stack(xs);
   background-color: hsl(0 0% 98%);
+  border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
   color: spruce.color(text);
   padding: spruce.spacer-clamp(m, l);
   text-decoration: none;
-  border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
 
   h2 {
     font-family: spruce.$font-family-base;

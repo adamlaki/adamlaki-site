@@ -15,8 +15,8 @@
   &__meta {
     align-items: center;
     display: flex;
-    font-family: spruce.$font-family-heading;
     flex-wrap: wrap;
+    font-family: spruce.$font-family-heading;
     gap: spruce.spacer(m);
   }
 }

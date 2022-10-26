@@ -27,7 +27,7 @@
       background-color: #f9f9f9;
     }
 
-    &[aria-current="page"] {
+    &[aria-current='page'] {
       background-color: spruce.color(text);
       color: hsl(0 0% 100%);
     }
