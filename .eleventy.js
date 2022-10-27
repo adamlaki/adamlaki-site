@@ -29,10 +29,10 @@ module.exports = config => {
   config.addPassthroughCopy('./src/img/');
   config.addPassthroughCopy('./src/css/');
 
-  // Returns faq items, sorted by issue order
-  // config.addCollection('faq', collection => {
-  //  return sortByIssueOrder(collection.getFilteredByGlob('./src/faq/*.md'));
-  // });
+  // Returns blog items, sorted by date order
+  config.addCollection('blog', collection => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')];
+  });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
