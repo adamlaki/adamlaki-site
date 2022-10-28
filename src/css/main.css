@@ -801,7 +801,7 @@ samp {
   }
 }
 .l-main__body {
-  --spacer: 3rem;
+  --spacer: 4.5rem;
   margin-inline: auto;
   max-width: 55rem;
   width: 100%;
@@ -1042,7 +1042,7 @@ samp {
   margin-block: 0;
 }
 .pagination a {
-  --dimension: 2.25rem;
+  --dimension: 2.5rem;
   align-items: center;
   background-color: hsl(0deg, 0%, 98%);
   border-radius: 0;

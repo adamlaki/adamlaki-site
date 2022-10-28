@@ -14,7 +14,7 @@
   }
 
   &__body {
-    --spacer: #{spruce.spacer(l)};
+    --spacer: #{spruce.spacer(xl)};
     @include spruce.layout-stack(var(--spacer));
     margin-inline: auto;
     max-width: 55rem;
