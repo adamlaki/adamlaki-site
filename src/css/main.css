@@ -875,6 +875,10 @@ samp {
   line-height: 1.2;
   margin-block: clamp(1.5rem, 5vw, 3rem) 1.5rem;
 }
+.l-page__title--regular {
+  font-family: Figtree, sans-serif;
+  font-size: clamp(2.55rem, 5vw, 4.25rem);
+}
 .l-page__list {
   list-style: none;
   margin: 0;

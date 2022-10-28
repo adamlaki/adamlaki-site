@@ -9,7 +9,7 @@
 
 {% block content %}
   <div class="l-page">
-    <h1 class="l-page__title">{{ title }}</h1>
+    <h1 class="l-page__title {% if tag %}l-page__title--regular{% endif %}">{{ title }}</h1>
     <ol class="l-page__list">
       {% for post in posts %}
         {% set tags = post.data.tags %}
