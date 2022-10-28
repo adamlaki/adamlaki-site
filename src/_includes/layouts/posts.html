@@ -2,6 +2,11 @@
 
 {% set posts = pagination.items %}
 
+{% if collections[ tag ] %}
+  {% set posts = collections[tag].reverse() %}
+  {% set title = 'Posts tagged with: ' + tag %}
+{% endif %}
+
 {% block content %}
   <div class="l-page">
     <h1 class="l-page__title">{{ title }}</h1>
@@ -25,6 +30,8 @@
         </li>
       {% endfor %}
     </ol>
-    {% include "partials/pagination.html" %}
+    {% if not tag %}
+      {% include "partials/pagination.html" %}
+    {% endif %}
   </div>
 {% endblock %}

@@ -3,6 +3,7 @@
 .skip-link {
   inset: -50vh auto auto spruce.spacer(m);
   position: fixed;
+  z-index: 1;
 
   &:focus {
     inset-block-start: spruce.spacer(m);
