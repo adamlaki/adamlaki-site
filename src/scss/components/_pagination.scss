@@ -1,0 +1,44 @@
+@use 'sass:color';
+@use 'sprucecss/scss/spruce';
+
+.pagination {
+  @include spruce.clear-list;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: spruce.$font-family-heading;
+  gap: spruce.spacer(s);
+  margin-block-start: spruce.spacer(xl);
+
+  > * {
+    margin-block: 0;
+  }
+
+  a {
+    --dimension: 2.25rem;
+    align-items: center;
+    background-color: hsl(0 0% 98%);
+    border-radius: spruce.$border-radius-lg;
+    color: spruce.color(text);
+    display: flex;
+    font-size: spruce.$font-size-sm;
+    height: var(--dimension);
+    justify-content: center;
+    min-width: var(--dimension);
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &.next,
+    &.prev {
+      padding-inline: 1rem;
+      width: auto;
+    }
+
+    &[aria-current='page'],
+    &:hover {
+      background-color: spruce.color(text);
+      color: hsl(0 0% 100%);
+      text-decoration: none;
+    }
+  }
+}

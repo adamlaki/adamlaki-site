@@ -1,10 +1,20 @@
 @use 'sprucecss/scss/spruce';
 
 .blog-card {
-  @include spruce.layout-stack(xs);
+  @include spruce.layout-stack(xxs);
 
-  h2 {
+  &__title {
     font-family: spruce.$font-family-base;
+  }
+
+  &__link {
+    color: spruce.color(text);
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: spruce.color(text);
+    }
   }
 
   &__meta {

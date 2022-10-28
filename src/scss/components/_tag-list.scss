@@ -1,0 +1,9 @@
+@use 'sprucecss/scss/spruce';
+
+.tag-list {
+  @include spruce.clear-list;
+
+  > * + * {
+    margin-block-start: 0;
+  }
+}

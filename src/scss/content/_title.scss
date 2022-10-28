@@ -1,6 +1,0 @@
-@use 'sprucecss/scss/spruce';
-
-.post-title {
-  font-size: spruce.responsive-font-size(5rem, 40, '5vw');
-  margin-block: spruce.spacer-clamp(m, l) spruce.spacer(m);
-}

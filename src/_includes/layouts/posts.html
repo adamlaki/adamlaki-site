@@ -3,12 +3,12 @@
 {% set posts = pagination.items %}
 
 {% block content %}
-  <div class="post">
-    <h1 class="post-title">{{ title }}</h1>
-    <ol class="blog-list">
+  <div class="l-page">
+    <h1 class="l-page__title">{{ title }}</h1>
+    <ol class="l-page__list">
       {% for post in posts %}
         {% set tags = post.data.tags %}
-        <li class="">
+        <li>
           <div class="blog-card">
             <h2 class="blog-card__title">
               <a href="{{ post.url }}" class="blog-card__link">
@@ -25,7 +25,6 @@
         </li>
       {% endfor %}
     </ol>
-
     {% include "partials/pagination.html" %}
   </div>
 {% endblock %}

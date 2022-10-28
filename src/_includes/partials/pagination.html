@@ -5,7 +5,7 @@
       {% if pagination.href.previous %}
         <li>
           <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" class="prev">
-            <span>{{ paginationPrevText if paginationPrevText else 'Previous' }}</span>
+            <span>{{ paginationCaptionPrev if paginationCaptionPrev else 'Previous' }}</span>
           </a>
         </li>
       {% endif %}
@@ -17,7 +17,7 @@
       {% if pagination.href.next %}
         <li>
           <a href="{{ pagination.href.next }}{{ paginationAnchor }}" class="next">
-            <span>{{ paginationNextText if paginationNextText else 'Next' }}</span>
+            <span>{{ paginationCaptionNext if paginationCaptionNext else 'Next' }}</span>
           </a>
         </li>
       {% endif %}

@@ -14,6 +14,10 @@ module.exports = config => {
   // Add filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
+  config.addFilter('debugger', (...args) => {
+    console.log(...args)
+    debugger;
+  });
 
   // Only minify HTML if we are in production because it slows builds _right_ down
   if (isProduction) {

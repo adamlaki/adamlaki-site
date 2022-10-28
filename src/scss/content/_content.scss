@@ -1,9 +1,5 @@
 @use 'sprucecss/scss/spruce';
 
-.post {
-  margin-inline: auto;
-}
-
 .post-content {
   @include spruce.layout-stack;
 
