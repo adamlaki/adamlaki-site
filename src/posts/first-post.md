@@ -16,6 +16,12 @@ Lorem markdownum **verbis**, fertur *fas* poplite cervix proximus ventis et. Reg
 
 Cognoscite gerens causam circumstant *luctus cupioque* morte, fera coniunx frustra Cnosiacaeque, cupidisque tempus Achaia. Pericla multis blanda! Et terribili, nec, **trepidans** pro; toto nam urbesque.
 
+```scss
+body {
+  color: red;
+}
+```
+
 Utilis templum verbis, date Sidonide et fugit, iram vela cultros pennis et nimium. Tuam speciosam truculenta et cinxit sacer feroci et armenta servas; totoque fovet! Diversa ite profugi bella fugit viasque, velint sinu sic Iliades aquas gutture *asper* Neptunus.
 
 ## Tu viginti non

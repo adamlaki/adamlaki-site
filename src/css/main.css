@@ -388,6 +388,20 @@ template {
 }
 
 :root {
+  --adam-prism-color-color: hsl(243deg, 14%, 29%);
+  --adam-prism-color-background: hsl(0deg, 0%, 98%);
+  --adam-prism-color-comment: hsl(225deg, 14%, 46%);
+  --adam-prism-color-punctuation: hsl(279deg, 50%, 53%);
+  --adam-prism-color-namespace: hsl(173deg, 100%, 24%);
+  --adam-prism-color-deleted: hsla(1deg, 83%, 63%, 0.56);
+  --adam-prism-color-boolean: hsl(0deg, 44%, 53%);
+  --adam-prism-color-number: hsl(315deg, 90%, 35%);
+  --adam-prism-color-constant: rgb(63, 107, 202);
+  --adam-prism-color-class-name: hsl(0deg, 0%, 7%);
+  --adam-prism-color-regex: hsl(1deg, 48%, 59%);
+}
+
+:root {
   --adam-transition-duration: 0;
   --adam-transition-timing-function: ease-in-out;
 }
@@ -858,6 +872,7 @@ samp {
 }
 .l-page__title {
   font-size: clamp(3rem, 5vw, 5rem);
+  line-height: 1.2;
   margin-block: clamp(1.5rem, 5vw, 3rem) 1.5rem;
 }
 .l-page__list {
@@ -883,18 +898,13 @@ samp {
   line-height: 1.2;
   margin-block: clamp(1.5rem, 5vw, 3rem) 1.5rem;
 }
-.l-post__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-block-start: 3rem;
-}
-.l-post__list > * {
-  margin-block-end: 0;
-  margin-block-start: 0;
-}
-.l-post__list > * + * {
-  margin-block-start: 3rem;
+.l-post__meta {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Space Mono, monospace;
+  gap: 1.5rem;
+  margin-block-end: 1.5rem;
 }
 
 .skip-link {
@@ -1046,6 +1056,128 @@ samp {
   --adam-container-width: 100%;
 }
 
+code[class*=language-],
+pre[class*=language-] {
+  color: var(--adam-prism-color-color);
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 1.0375rem;
+  hyphens: none;
+  line-height: 1.5;
+  tab-size: 4;
+  text-align: left;
+  white-space: pre;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+}
+
+@media print {
+  code[class*=language-],
+pre[class*=language-] {
+    text-shadow: none;
+  }
+}
+/* Code blocks */
+pre[class*=language-] {
+  display: grid;
+  overflow: auto;
+  padding: 1.5rem;
+}
+
+pre[class*=language-] code {
+  background-color: transparent;
+  padding: 0;
+}
+
+:not(pre) > code[class*=language-],
+pre[class*=language-] {
+  background: var(--adam-prism-color-background);
+  overflow-x: auto;
+}
+
+.token.comment,
+.token.prolog,
+.token.cdata {
+  color: var(--adam-prism-color-comment);
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: var(--adam-prism-color-punctuation);
+}
+
+.namespace {
+  color: var(--adam-prism-color-namespace);
+}
+
+.token.deleted {
+  color: var(--adam-prism-color-deleted);
+  font-style: italic;
+}
+
+.token.symbol,
+.token.operator,
+.token.keyword,
+.token.property {
+  color: var(--adam-prism-color-namespace);
+}
+
+.token.tag {
+  color: var(--adam-prism-color-punctuation);
+}
+
+.token.boolean {
+  color: var(--adam-prism-color-boolean);
+}
+
+.token.number {
+  color: var(--adam-prism-color-number);
+}
+
+.token.constant,
+.token.builtin,
+.token.string,
+.token.url,
+.token.entity,
+.language-css .token.string,
+.style .token.string,
+.token.char {
+  color: var(--adam-prism-color-constant);
+}
+
+.token.selector,
+.token.function,
+.token.doctype {
+  color: var(--adam-prism-color-punctuation);
+  font-style: italic;
+}
+
+.token.attr-name,
+.token.inserted {
+  color: var(--adam-prism-color-constant);
+  font-style: italic;
+}
+
+.token.class-name,
+.token.atrule {
+  color: var(--adam-prism-color-class-name);
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: var(--adam-prism-color-regex);
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
 .tag-list {
   list-style: none;
   margin: 0;
@@ -1149,7 +1281,7 @@ samp {
   max-width: 100%;
 }
 .post-content > * {
-  max-width: 55ch;
+  max-width: 40rem;
 }
 .post-content h1,
 .post-content h2,
