@@ -874,6 +874,29 @@ samp {
   margin-block-start: 3rem;
 }
 
+.l-post {
+  margin-inline: auto;
+}
+.l-post__title {
+  font-family: Figtree, sans-serif;
+  font-size: clamp(2.55rem, 5vw, 4.25rem);
+  line-height: 1.2;
+  margin-block: clamp(1.5rem, 5vw, 3rem) 1.5rem;
+}
+.l-post__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 3rem;
+}
+.l-post__list > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.l-post__list > * + * {
+  margin-block-start: 3rem;
+}
+
 .skip-link {
   inset: -50vh auto auto 1.5rem;
   position: fixed;
@@ -897,8 +920,13 @@ samp {
   }
 }
 .site-header__logo {
-  height: 7rem;
+  height: 5rem;
   width: auto;
+}
+@media (min-width: 48em) {
+  .site-header__logo {
+    height: 7rem;
+  }
 }
 .site-header__helper {
   display: flex;

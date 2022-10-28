@@ -1,38 +1,17 @@
 ---
-title: 'This is the second post'
+title: 'What is WCAG?'
 date: '2022-10-27'
-tags: ['scss']
+tags: ['a11y']
 ---
-Lorem markdownum **verbis**, fertur *fas* poplite cervix proximus ventis et. Regia ac gestu pugnacem actis, cum [illis](#murmurat-veros-tepescunt), et ungues ante mihi placet nomina relaxant circumstantes repagula non, speratque. Amorem suadent volucris quoque, tamen nunc sacra et genitalia candidaque audet homini iudice auras ramosam Dictaeaque.
 
-1. Addenda ventis non
-2. Sol inpia ne arboreis
-3. Iam grates voluit cumque
-4. Vestigia et clipei adhaeret atque aristas collaque
-5. Furialibus Aonius morati optari nullique Hersilie manus
+The Web Content Accessibility Guidelines (WCAG) is an extensive standard for web development; right now, its current version is 2.1. It is an essential piece of guideline both for specialists and users.
 
-## Dispositam terribilis quae
+The **WCAG version 2.1** has 13 guidelines with many success criteria distributed among three levels to help you create more accessible web-based products. The levels are: **A** is the easiest, the **AA** is the most suggested goal, and the **AAA** is the most strict.
 
-Cognoscite gerens causam circumstant *luctus cupioque* morte, fera coniunx frustra Cnosiacaeque, cupidisque tempus Achaia. Pericla multis blanda! Et terribili, nec, **trepidans** pro; toto nam urbesque.
+It has four main principles (named POUR):
+- **Perceivable:** the content must be accessible to everyone.
+- **Operable:** the functionality must work on different user inputs (mouse, keyboard).
+- **Understandable:** must be easily understandable (content, structure, functionality).
+- **Robust:** the result must function on different technologies (like screen readers).
 
-Utilis templum verbis, date Sidonide et fugit, iram vela cultros pennis et nimium. Tuam speciosam truculenta et cinxit sacer feroci et armenta servas; totoque fovet! Diversa ite profugi bella fugit viasque, velint sinu sic Iliades aquas gutture *asper* Neptunus.
-
-## Tu viginti non
-
-Dedit profundo similis Aurora Luna obscenique; innato amabam scopulos Idan? Ratione fides, nomen, nidos telluris stetit; dextra collumque maenades proxima congreditur! Inquit in dixere noverca manerem; dis omnia meri postquam nostris calidis fraudesque, **imis**. **Probavit coniunx quoque**, me mentior geniti fatorum vulnus.
-
-- Est et haec bitumine documenta ora at
-- Possent herbas
-- Iacens caelo guttae
-- Unus regni
-- Ad aras pueroque nomen
-
-## Ut iugo quod
-
-In Alce ergo vestem Dixit pede non ut **sumit** exercent. Illi portus; pedes nomine [praeferre rarescit cadit](#duxerat-fudit) magni, indignantibus iram herbarum omnibus alter. Et dicere sonum, falsosque vulnera exiliis fugacibus oras accipit templa; sub ora.
-
-1. Quae equos versus iura leti germanae sibi
-2. Vertice innubere velox et postquam fugae credulitate
-3. Mihi scelerataque extendi nec istis nostris caput
-
-Tellure liceat sive serpens, erat quamvis, mihi: vultus mihi [contra frater](#relicta). Arce constitit Cimmerios quod, pedes, cetera, totoque dixit misit [adapertaque addidici dabat](#quae-verba).
+Keep in mind that WCAG is just a tool to make accessibility measurable. If you are WCAG compliant, it still (usually) doesn't mean that you are 100% barrier-free.

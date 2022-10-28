@@ -14,8 +14,12 @@
   }
 
   &__logo {
-    height: 7rem;
+    height: 5rem;
     width: auto;
+
+    @include spruce.breakpoint(sm) {
+      height: 7rem;
+    }
   }
 
   &__helper {

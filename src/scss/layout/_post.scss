@@ -1,0 +1,18 @@
+@use 'sprucecss/scss/spruce';
+
+.l-post {
+  margin-inline: auto;
+
+  &__title {
+    font-family: spruce.$font-family-base;
+    font-size: spruce.responsive-font-size(4.25rem, 40, '5vw');
+    line-height: spruce.$line-height-sm;
+    margin-block: spruce.spacer-clamp(m, l) spruce.spacer(m);
+  }
+
+  &__list {
+    @include spruce.layout-stack(l);
+    @include spruce.clear-list;
+    margin-block-start: spruce.spacer(l);
+  }
+}

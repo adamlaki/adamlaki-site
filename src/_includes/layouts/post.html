@@ -1,0 +1,10 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+  <div class="l-post">
+    <h1 class="l-post__title">{{ title }}</h1>
+    <div class="post-content">
+      {{ content | safe }}
+    </div>
+  </div>
+{% endblock %}

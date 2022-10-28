@@ -3,7 +3,7 @@ title: 'Blog'
 layout: 'layouts/posts.html'
 pagination:
   data: collections.blog
-  size: 1
+  size: 20
   reverse: true
   alias: posts
 paginationCaptionNext: "Next"
