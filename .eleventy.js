@@ -27,8 +27,6 @@ module.exports = config => {
   // Plugins
   config.addPlugin(syntaxHighlight);
 
-  const sortByIssueOrder = require('./src/utils/sort-by-issue-order.js');
-
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy('./src/img/');
   config.addPassthroughCopy('./src/css/');
