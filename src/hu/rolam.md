@@ -1,22 +1,33 @@
 ---
 title: "Rólam"
 layout: "layouts/page.html"
-metaDesc: "Ismerd meg Laki Ádámot és a szakmáját."
+metaDesc: "Ismerd meg engem, mint személyt és szakembert."
 ---
 
-Hello! My name is Adam Laki! I’m a front-end and WordPress developer. My central area is the front-end development, which is also my passion. I work a lot with WordPress, inside that with theme development. In my projects, my goal is to make a modern and future-proof results.
+Helló, Ádám vagyok, akadálymentes, modern weboldalakat és alkalmazásokat készítek. Gatsby-vel, 11ty-vel és WordPress-el dologozok.
 
-I’m that kind of developer who is not only want to get over the tasks but also want to make the most of it. The finished product must be future-proof – of course not for the infinity -, but also be easily maintainable, easily expandable, simple, stylish, fast and robust.
+Szabadúszó vagyok, aki általában elérhető új projektekre. Ha van egy projekt ötleted, amit szeretnél megvalósítani, nyugodtan írj nekem egy e-mailt ([info@adamlaki.com](mailto:info@adamlaki.com)). [Gergő](https://twitter.com/_iamgergo), egy tehetséges Laravel és Vue.js fejlesztővel dolgozok. Ketten, több - többnyire open-source - projektet viszünk.
 
-The continuous development and learning is my primary focus. I try to learn and implement the newest technologies. In an area, like the front-end development, you must develop yourself because you miss the evolution. Fortunately today this is easy, and I think there is no excuse for it.
+## OSS
 
-## Skills
+Jelenleg a legnagyobb saját projektem a [Spruce CSS](https://sprucecss.com/), ami egy egyszerű CSS keretrendszer. Ez egy egészen új rendszer, így még alakulóban van.
 
-To collect my strongest skills was hard. This list is not complete and not too detailed. The front-end developer’s skillset is always expanded and everything that its include I should know. Logically I don’t know everything, but I try to keep it up.
+Résztveszek a [Root](https://root.conedevelopment.com/) UI tervezésében, ami egy Laravel admin csomag.
 
-- I’ve come to this field from a graphic design background and because of this using Photoshop, Illustrator and InDesign is not a problem. Today I only use Affinity products named Designer and Photo, and I’m waiting for the Publisher. <3
-- The semantic HTML is the necessary standard be it microdata or HTML5 tags.
-- CSS is a straightforward language at least for a first and a second look. In practice, this is one of the hardest parts of the development because it is so particular. Your job to make it maintainable and scalable. I try to learn it in and out and get known that techniques which are rarely used.
-- In the previous period, my primary focus was the JavaScript. In practice, I must be better but the closure and the this in the pocket! ;) Currently, the Vue.js is the favorite.
-- I made a lot of site with WordPress from the smaller portfolios to some bigger webshop. Making a usable theme is always a pleasure for me!
-- Also, I develop my soft skills continuously. I trying to be better at communication, writing, teamwork and so
+Elkezdtem készíteni egy akadálymentes tipp gyűjteményt, ami [Bite-Sized Accessibility](https://bite-sized-a11y.com/) névre hallgat.
+
+## UI
+
+Tervezéssel terveztem és a mai napig szeretek felhasználói felületeket készíteni. Szerencsére erre van is lehetőségem, megbízásos munkák, illetve a saját projektek során.
+
+A böngészőben tervezek, amit nem tudok eléggé ajánlani. Egy kicsit más mentalitás és képességek kellenek hozzá, de pont ugyanolyan gyors tud lenni, mint bármi más.
+
+## Front-end
+
+Szeretem a HTML-t és a CSS-t. Szeretem bennük, hogy mennyire egyszerű elsajátítani az alapokat és milyen nehéz mesteri szinten érteni hozzájuk. Mindig lehet valami újat tanulni.
+
+Gyakran írok egyszerű JavaScriptet. Általában Vue.js-t használunk, ha szükségük van JS keretrendszerre, de elkezdtem React-al is foglalkozni (főként még Gatsby miatt, amikor tanultam).
+
+## Akadálymentesség
+
+Még 2019-ben kezdtem el akadálymentesítésről tanulni, főként kíváncsiságból. Lenyűgöz, hogy mekkora egy terület ez. Nagyon megkedveltem és napi szinten foglalkozok vele.
