@@ -18,7 +18,7 @@ projects:
       description: "Root is an admin package for Laravel applications with extension support."
     - title: "Cone"
       url: "https://conedevelopment.com/"
-      description: "Our contractor site. Check out how can we help you to develop your next web-based project."
+      description: "Our contractor service site. Check out how can we help you to develop your next web-based project."
 ---
 
-# Hey, I'm Adam! **I'm a passionate, accessibility-focused front-end developer.** I develop with Gatsby, 11ty, and WordPress. I like to learn and try out new things in my field.
+# Hey, I’m Adam! **I’m a passionate, accessibility-focused front-end developer.** I develop with Gatsby, 11ty, and WordPress. I like to learn and try out new things in my field.
