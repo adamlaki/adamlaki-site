@@ -6,7 +6,7 @@ metaDesc: "Ismerd meg engem, mint személyt és szakembert."
 
 Helló, Ádám vagyok, akadálymentes, modern weboldalakat és alkalmazásokat készítek. Gatsby-vel, 11ty-vel és WordPress-el dologozok.
 
-Szabadúszó vagyok, aki általában elérhető új projektekre. Ha van egy projekt ötleted, amit szeretnél megvalósítani, nyugodtan írj nekem egy e-mailt ([info@adamlaki.com](mailto:info@adamlaki.com)). [Gergő](https://twitter.com/_iamgergo), egy tehetséges Laravel és Vue.js fejlesztővel dolgozok. Ketten, több - többnyire open-source - projektet viszünk.
+Szabadúszó vagyok, aki általában elérhető új projektekre. Ha van egy projekt ötleted, amit szeretnél megvalósítani, nyugodtan írj nekem egy e-mailt ([info@adamlaki.com](mailto:info@adamlaki.com)). [Gergővel](https://twitter.com/_iamgergo), egy tehetséges Laravel és Vue.js fejlesztővel dolgozok. Ketten, több - többnyire open-source - projektet viszünk.
 
 ## OSS
 
