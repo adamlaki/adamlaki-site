@@ -1220,14 +1220,15 @@ pre[class*=language-] {
   text-decoration: none;
   text-transform: uppercase;
 }
-.pagination a.next, .pagination a.prev {
-  padding-inline: 1rem;
-  width: auto;
-}
 .pagination a[aria-current=page], .pagination a:hover {
   background-color: var(--adam-base-color-text);
   color: hsl(0deg, 0%, 100%);
   text-decoration: none;
+}
+.pagination .next,
+.pagination .prev {
+  padding-inline: 1rem;
+  width: auto;
 }
 
 .blog-card > * {

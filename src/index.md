@@ -16,6 +16,9 @@ projects:
     - title: "Root"
       url: "https://root.conedevelopment.com/"
       description: "Root is an admin package for Laravel applications with extension support."
+    - title: "Cone"
+      url: "https://conedevelopment.com/"
+      description: "Our contractor site. Check out how can we help you to develop your next web-based project."
 ---
 
-# Hey, I'm Adam; **I develop accessible and modern sites and applications.** I make Spruce CSS and contribute to Root. I like static sites; I primarily work with 11ty, Gatsby and WordPress.
+# Hey, I'm Adam! **I'm a passionate, accessibility-focused front-end developer.** I develop with Gatsby, 11ty, and WordPress. I like to learn and try out new things in my field.
