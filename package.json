@@ -3,7 +3,7 @@
     "delete:dist": "del-cli --force dist",
     "eleventy:dev": "npx eleventy --serve",
     "eleventy:prod": "npx eleventy",
-    "prod": "npm-run-all delete:dev-folder eleventy:prod sass:prod",
+    "prod": "npm-run-all delete:dist eleventy:prod sass:prod",
     "sass:dev": "sass --load-path=node_modules --watch --no-source-map --update --style=expanded src/scss:src/css",
     "sass:prod": "sass --load-path=node_modules --load-path=scss --no-source-map --style=compressed src/scss:src/css",
     "sass:lint": "stylelint src/scss/**/*.scss",
