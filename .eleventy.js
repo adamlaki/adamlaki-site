@@ -30,6 +30,7 @@ module.exports = config => {
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy('./src/img/');
   config.addPassthroughCopy('./src/css/');
+  config.addPassthroughCopy('./src/fonts/');
 
   // Returns blog items, sorted by date order
   config.addCollection('blog', collection => {
