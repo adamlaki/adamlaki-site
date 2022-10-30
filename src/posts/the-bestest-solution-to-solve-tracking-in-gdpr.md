@@ -1,5 +1,5 @@
 ---
-title: 'The Bestest GDPR Solution to Solve Tracking'
+title: 'The Bestest Solution to Solve Tracking in GDPR'
 date: '2022-10-29'
 tags: ['privacy']
 ---
