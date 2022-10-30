@@ -3,9 +3,8 @@
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-    url('../fonts/space-mono-v12-latin-ext_latin-regular.woff2') format('woff2'),
-    url('../fonts/space-mono-v12-latin-ext_latin-regular.woff') format('woff');
+  src: local('Space Mono'),
+    url('../fonts/space-mono-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -13,9 +12,8 @@
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
-  src: local(''),
-    url('../fonts/space-mono-v12-latin-ext_latin-700.woff2') format('woff2'),
-    url('../fonts/space-mono-v12-latin-ext_latin-700.woff') format('woff');
+  src: local('Space Mono'),
+    url('../fonts/space-mono-700.woff2') format('woff2');
 }
 
 @font-face {
@@ -23,9 +21,8 @@
   font-family: 'Figtree';
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-    url('../fonts/figtree-v1-latin-ext_latin-regular.woff2') format('woff2'),
-    url('../fonts/figtree-v1-latin-ext_latin-regular.woff') format('woff');
+  src: local('Figtree'),
+    url('../fonts/figtree-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -33,9 +30,8 @@
   font-family: 'Figtree';
   font-style: normal;
   font-weight: 500;
-  src: local(''),
-    url('../fonts/figtree-v1-latin-ext_latin-500.woff2') format('woff2'),
-    url('../fonts/figtree-v1-latin-ext_latin-500.woff') format('woff');
+  src: local('Figtree'),
+    url('../fonts/figtree-500.woff2') format('woff2');
 }
 
 @font-face {
@@ -43,7 +39,6 @@
   font-family: 'Figtree';
   font-style: normal;
   font-weight: 700;
-  src: local(''),
-    url('../fonts/figtree-v1-latin-ext_latin-700.woff2') format('woff2'),
-    url('../fonts/figtree-v1-latin-ext_latin-700.woff') format('woff');
+  src: local('Figtree'),
+    url('../fonts/figtree-700.woff2') format('woff2');
 }
