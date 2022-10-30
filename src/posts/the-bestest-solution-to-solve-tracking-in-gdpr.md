@@ -10,7 +10,7 @@ The General Data Protection Regulation is about all user data, and one part is c
 
 Although a generic website owner doesn’t (and can’t) sell its user data collected with GA (Google Analytics) but because they are using that tool for tracking, Google can and will.
 
-One thing that GDPR shows us is that every service has its price. Suppose you want to track users and get statistics; you must pay for a service. If they give it to you for free, you pay elsewhere (with your user’s data). [Piwik](https://piwik.pro/) was always here, and now you can choose from more privacy-friendly analytics like [Fanthom](https://usefathom.com/) and [Plausible](https://plausible.io/).
+One thing that GDPR shows us is that every service has its price. Suppose you want to track users and get statistics; you must pay for a service. If they give it to you for free, you pay elsewhere (with your user’s data). [Piwik](https://piwik.pro/) was always here, and now you can choose from more privacy-friendly analytics like [Fathom](https://usefathom.com/) and [Plausible](https://plausible.io/).
 
 **But still, in some cases, the best solution isn’t privacy-oriented tracking; it is to leave the analytics all out.**
 
