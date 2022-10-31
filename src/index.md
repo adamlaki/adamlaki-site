@@ -1,7 +1,7 @@
 ---
-title: "Home"
+title: "Front-end Developer"
 layout: "layouts/home.html"
-metaDesc: "The home page of Adam Laki a front-end developer, accessibility specialist."
+metaDesc: "Hey, I’m Adam! I’m a passionate, accessibility-focused front-end developer. I develop with Gatsby, 11ty, and WordPress. I like to learn and try out new things in my field."
 coverImage: "/img/front-cover.svg"
 coverAlt: "An abstract bauhaus illustration with basic geometric formations."
 projects:

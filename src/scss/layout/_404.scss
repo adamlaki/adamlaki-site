@@ -1,0 +1,15 @@
+@use 'sprucecss/scss/spruce';
+
+.l-404 {
+  @include spruce.layout-stack;
+  margin-inline: auto;
+
+  &__image {
+    max-width: 30rem;
+  }
+
+  &__title {
+    font-family: spruce.$font-family-base;
+    font-size: spruce.responsive-font-size(4.25rem, 40, '5vw');
+  }
+}

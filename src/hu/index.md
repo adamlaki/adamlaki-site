@@ -1,7 +1,7 @@
 ---
-title: "Kezdőlap"
+title: "Front-end fejlesztő"
 layout: "layouts/home.html"
-metaDesc: "[HU desc]"
+metaDesc: "Helló, Ádám vagyok, front-end fejlesztő. Akadálymentes, modern weboldalakat és alkalmazásokat készítek. Gatsby-vel, 11ty-vel és WordPress-el dologozok."
 coverImage: "/img/front-cover.svg"
 projects:
   title: "Projektek"
@@ -20,4 +20,4 @@ projects:
       description: "Nézd meg miben tudunk segíteni neked a következő webalapú projekted elkészítésében."
 ---
 
-# Helló, Ádám vagyok, **akadálymentes, modern weboldalakat és alkalmazásokat készítek.** Gatsby-vel, 11ty-vel és WordPress-el dologozok.
+# Helló, Ádám vagyok, front-end fejlesztő. **Akadálymentes, modern weboldalakat és alkalmazásokat készítek.** Gatsby-vel, 11ty-vel és WordPress-el dologozok.
