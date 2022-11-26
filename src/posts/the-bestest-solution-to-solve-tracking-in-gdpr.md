@@ -35,3 +35,5 @@ If you need to collect user data, pay for the proper tracking. It is not free; i
 If you don’t, don’t use tracking. Don’t help the big tech to access more free data. If you look at that data once a month, you probably don’t need it.
 
 If you need a middle ground, use GA in a GDPR way only when the user explicitly enables it (and as the law requires it). Privacy is not a joke.
+
+[![IMAGE_ALT](https://img.youtube.com/vi/g_QtO0Rhp0w/maxresdefault.jpg)](https://www.youtube.com/watch?v=g_QtO0Rhp0w)
