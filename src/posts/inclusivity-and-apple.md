@@ -4,7 +4,7 @@ date: '2022-12-13'
 tags: ['a11y']
 ---
 
-I am fascinated by Apple when it comes to inclusivity. Don’t get me wrong; I still know that it is just another tech corporation focused on more and more profit. But still, I can’t argue with their achievements related to a11y (accessibility).
+I am fascinated by Apple when it comes to inclusivity. Don't get me wrong; I still know that it is just another tech corporation focused on more and more profit. But still, I can't argue with their achievements related to a11y (accessibility).
 
 I stumbled upon this video:
 
