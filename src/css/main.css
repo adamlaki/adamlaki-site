@@ -1042,7 +1042,10 @@ samp {
   margin-block-start: 0;
 }
 .site-navigation ul > * + * {
-  margin-block-start: 0.5rem;
+  margin-block-start: 1rem;
+}
+.site-navigation li {
+  line-height: 1.5;
 }
 
 .site-hero > * {

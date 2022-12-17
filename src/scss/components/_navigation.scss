@@ -5,6 +5,10 @@
 
   ul {
     @include spruce.clear-list;
-    @include spruce.layout-stack(xs);
+    @include spruce.layout-stack(s);
+  }
+
+  li {
+    line-height: spruce.$line-height-md;
   }
 }
