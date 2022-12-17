@@ -28,6 +28,19 @@ Szeretem a HTML-t és a CSS-t. Szeretem bennük, hogy mennyire egyszerű elsajá
 
 Gyakran írok egyszerű JavaScriptet. Általában Vue.js-t használunk, ha szükségük van JS keretrendszerre, de elkezdtem React-al is foglalkozni (főként még Gatsby miatt, amikor tanultam).
 
+
+## WordPress
+
+A WordPress egy olyan eszköz, amit elég gyakran használok. Amikor az a cél, hogy egy jól használható és szerkeszthető portfolió oldalt készítsünk a WP mindig egy jó választás.
+
+Mi mindig csak alap WordPress-el dolgozunk, a lehető legkevesebb függőséggel. Az utóbbi időben kezdtem el beleásni magam az egyedi Gutenberg blokk építésbe és a teljes oldalas szerkesztésbe.
+
+## Statikus oldalak
+
+A statikus oldalak nagyon mennek az utóbbi időben. Sok esetben - _amikor nincs szüksége napi tartalom módosításra_ a leghatékonyabb megoldása egy weboldalnak. Lehetőségeik természetesen végtlenek, így akár egy CMS-re is ráköthetőek, nagy teljesítményű oldalak létrehozásához.
+
+Jelenleg az a 11ty nevű rendszer a favorit, ami mindig lenyűgöz, amikor vele dolgozok.
+
 ## Akadálymentesség
 
-Még 2019-ben kezdtem el akadálymentesítésről tanulni, főként kíváncsiságból. Lenyűgöz, hogy mekkora terület. Nagyon megkedveltem és napi szinten foglalkozok vele.
+Még 2019-ben kezdtem el akadálymentesítésről tanulni, főként kíváncsiságból. Nagyon megkedveltem és napi szinten foglalkozok vele.

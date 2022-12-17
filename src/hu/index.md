@@ -20,4 +20,4 @@ projects:
       description: "Nézd meg miben tudunk segíteni neked a következő webalapú projekted elkészítésében."
 ---
 
-# Helló, Ádám vagyok, front-end fejlesztő. **Akadálymentes, modern weboldalakat és alkalmazásokat készítek.** Gatsby-vel, 11ty-vel és WordPress-el dologozok.
+# Helló, Ádám vagyok, front-end és WordPress fejlesztő. **Akadálymentes, modern weboldalakat és alkalmazásokat készítek.** Gatsby-vel, 11ty-vel és WordPress-el dologozok.
