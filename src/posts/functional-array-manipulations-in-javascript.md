@@ -6,7 +6,7 @@ tags: ['JS', 'Notes']
 
 Simple array collection manipulation is an essential part of any language. In JS, we have a lot of helper methods that we can quickly get, modify and transform our base data.
 
-We will alter - through examples - the following cart array:
+We will alter - _through examples_ - the following cart array:
 
 ```javascript
 const cart = [
@@ -30,7 +30,7 @@ const cart = [
 
 ## Array Filtering
 
-Using the `filter` method, we can return - and create a new array - items from our collection based on a condition.
+Using the `filter` method, we can return - _and create a new array_ - items from our collection based on a condition.
 
 If you want to get just the items with a price higher than 900, you can use this one-line filter:
 
@@ -92,7 +92,7 @@ const sum = cart.reduce((accumulator, item) => accumulator + item.price, 0) ;
 // the result will be 2697
 ```
 
-## Testing All Item With Every
+## Testing Items With Every
 
 The `every` method will test all elements on a provided test and returns an overall boolean value based on it. If all items pass the test, it is `true`; otherwise `false`.
 
@@ -106,7 +106,7 @@ cart.every(item => item.price > 800)
 // will return false
 ```
 
-## Testing All Item With Some
+## Testing Items With Some
 
 The `some` method will run until the callback function doesn’t return `true`. It is kind of the opposite of the `every` approach; here you only need one item to pass the callback’s condition to return a `true` value.
 
@@ -116,6 +116,6 @@ cart.some(item => item.name === 'iPhone 14')
 ```
 
 ## References
-- [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)-
+- [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
