@@ -119,3 +119,5 @@ cart.some(item => item.name === 'iPhone 14')
 - [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+
+[![IMAGE_ALT](https://img.youtube.com/vi/etOq30rF0gE/maxresdefault.jpg)](https://www.youtube.com/watch?v=etOq30rF0gE)
