@@ -373,8 +373,10 @@ template {
 
 :root {
   --adam-btn-color-primary-background: hsl(210deg, 100%, 45%);
+  --adam-btn-color-primary-background-hover: #0059b3;
   --adam-btn-color-primary-foreground: hsl(0deg, 0%, 100%);
   --adam-btn-color-secondary-background: hsl(227deg, 92%, 55%);
+  --adam-btn-color-secondary-background-hover: #0937dc;
   --adam-btn-color-secondary-foreground: hsl(0deg, 0%, 100%);
 }
 
@@ -531,11 +533,12 @@ figure figcaption {
 }
 
 .table-responsive {
+  --min-width: 40rem;
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
 }
 .table-responsive table {
-  min-width: 40rem;
+  min-width: var(--min-width);
 }
 
 .table {
@@ -558,7 +561,7 @@ figure figcaption {
   text-align: inherit;
   text-align: -webkit-match-parent;
 }
-.table--striped > tbody > tr:nth-child(even) {
+.table--striped > tbody > tr:nth-child(odd) {
   background-color: var(--adam-table-color-stripe);
 }
 .table--hover > tbody > tr:hover {
@@ -753,8 +756,9 @@ samp {
 
 .btn {
   align-items: center;
-  border: 0;
   border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: inline-flex;
   font-size: 1.0375rem;
@@ -766,7 +770,7 @@ samp {
   text-align: start;
   text-decoration: none;
   transition-duration: var(--adam-transition-duration);
-  transition-property: background-color, box-shadow, color;
+  transition-property: background-color, border-color, box-shadow, color;
   transition-timing-function: var(--adam-transition-timing-function);
 }
 
@@ -803,10 +807,12 @@ samp {
 
 .btn--sm {
   font-size: 0.8rem;
+  gap: 0.25rem;
   padding: 0.5em;
 }
 
 .btn--lg {
+  gap: 0.5rem;
   padding: 0.9em 1.15em;
 }
 @media (min-width: 64em) {
@@ -821,15 +827,17 @@ samp {
 
 .btn--primary {
   background-color: var(--adam-btn-color-primary-background);
-  color: var(--adam-btn-color-primary-foreground);
-}
-.btn--primary:hover {
-  background-color: #0059b3;
+  border-color: var(--adam-btn-color-primary-background);
   color: var(--adam-btn-color-primary-foreground);
 }
 .btn--primary:focus-visible {
   outline: 2px solid var(--adam-btn-color-primary-background);
   outline-offset: 2px;
+}
+.btn--primary:hover {
+  background-color: var(--adam-btn-color-primary-background-hover);
+  border-color: var(--adam-btn-color-primary-background-hover);
+  color: var(--adam-btn-color-primary-foreground);
 }
 
 .l-main__inner {
