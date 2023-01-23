@@ -1,44 +1,29 @@
-@font-face {
-  font-display: swap;
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Space Mono'),
-    url('../fonts/space-mono-regular.woff2') format('woff2');
-}
+@use 'sprucecss/scss/spruce';
 
-@font-face {
-  font-display: swap;
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Space Mono'),
-    url('../fonts/space-mono-700.woff2') format('woff2');
-}
+@include spruce.font-face(
+  'Space Mono',
+  '../fonts/space-mono-regular.woff2'
+);
 
-@font-face {
-  font-display: swap;
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Figtree'),
-    url('../fonts/figtree-regular.woff2') format('woff2');
-}
+@include spruce.font-face(
+  'Space Mono',
+  '../fonts/space-mono-700.woff2',
+  700
+);
 
-@font-face {
-  font-display: swap;
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Figtree'),
-    url('../fonts/figtree-500.woff2') format('woff2');
-}
+@include spruce.font-face(
+  'Figtree',
+  '../fonts/figtree-regular.woff2'
+);
 
-@font-face {
-  font-display: swap;
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Figtree'),
-    url('../fonts/figtree-700.woff2') format('woff2');
-}
+@include spruce.font-face(
+  'Figtree',
+  '../fonts/figtree-500.woff2',
+  500
+);
+
+@include spruce.font-face(
+  'Figtree',
+  '../fonts/figtree-700.woff2',
+  700
+);
