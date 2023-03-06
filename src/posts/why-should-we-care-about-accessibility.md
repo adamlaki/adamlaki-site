@@ -25,3 +25,5 @@ Adding a good quality alt description and correctly using the button element is 
 And when you create inclusivity in mind, you will make mistakes. Everybody does, don't overthink it. Start small and be consistent. The main thing here is that you should start to care about accessibility.
 
 Check out [Bite-Sized Accessibility](https://bite-sized-a11y.com/), where you can find short posts about a11y to help you start small.
+
+[![IMAGE_ALT](https://img.youtube.com/vi/cfATkdTylnI/maxresdefault.jpg)](https://www.youtube.com/watch?v=cfATkdTylnI)
