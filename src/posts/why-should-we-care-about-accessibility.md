@@ -23,3 +23,5 @@ Adding a good quality alt description and correctly using the button element is 
 - A11y is UX; usually, when you make something accessible, you do not just help the people that need it the most but all of them. The low-floored buses and trains are a good physical example. It is a must if you use a wheelchair or push a baby carriage. It will help the elderly, persons with temporary injuries, and everybody because it is easier to use.
 
 And when you create inclusivity in mind, you will make mistakes. Everybody does, don't overthink it. Start small and be consistent. The main thing here is that you should start to care about accessibility.
+
+Check out [Bite-Sized Accessibility](https://bite-sized-a11y.com/), where you can find short posts about a11y to help you start small.
