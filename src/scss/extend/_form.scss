@@ -1,0 +1,13 @@
+@use 'sprucecss/scss/spruce';
+
+.form-group-list {
+  @include spruce.layout-stack(s);
+}
+
+.form-group--btns {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: spruce.spacer(s);
+}

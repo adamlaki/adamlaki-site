@@ -12,6 +12,10 @@
       {
         "text": "Blog",
         "url": "/blog/"
+      },
+      {
+        "text": "Tools",
+        "url": "/tools/"
       }
     ]
   },

@@ -1,9 +1,23 @@
 @use 'sprucecss/scss/spruce' with (
   $color-black: hsl(0 0% 0%),
-  $color-primary: hsl(210 100% 45%),
+  $color-primary: hsl(0 0% 0%),
   $colors: (
     base: (
-      text: hsl(0 0% 0%)
+      text: hsl(0 0% 0%),
+      link: hsl(210 100% 45%),
+      link-hover: hsl(210 100% 55%)
+    ),
+    btn: (
+      primary-background: hsl(0 0% 0%),
+      primary-background-hover: hsl(0 0% 0%),
+      secondary-background: hsl(0 0% 95%),
+      secondary-background-hover: hsl(0 0% 95%),
+      secondary-foreground: hsl(0 0% 0%)
+    ),
+    form: (
+      border: hsl(0 0% 0%),
+      border-focus: hsl(0 0% 0%),
+      ring-focus: hsl(0 0% 0%)
     ),
     prism: (
       color: hsl(243 14% 29%),
