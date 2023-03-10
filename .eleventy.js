@@ -31,6 +31,7 @@ module.exports = config => {
   config.addPassthroughCopy('./src/img/');
   config.addPassthroughCopy('./src/css/');
   config.addPassthroughCopy('./src/fonts/');
+  config.addPassthroughCopy('./src/js/');
   config.addPassthroughCopy('./_redirects');
 
   // Returns blog items, sorted by date order

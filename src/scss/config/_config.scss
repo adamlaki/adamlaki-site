@@ -1,9 +1,25 @@
 @use 'sprucecss/scss/spruce' with (
   $color-black: hsl(0 0% 0%),
-  $color-primary: hsl(210 100% 45%),
+  $color-primary: hsl(0 0% 0%),
   $colors: (
     base: (
-      text: hsl(0 0% 0%)
+      text: hsl(0 0% 0%),
+      link: hsl(210 100% 45%),
+      link-hover: hsl(210 100% 55%)
+    ),
+    btn: (
+      primary-background: hsl(0 0% 0%),
+      primary-background-hover: hsl(0 0% 0%),
+      secondary-background: hsl(0 0% 95%),
+      secondary-background-hover: hsl(0 0% 95%),
+      secondary-foreground: hsl(0 0% 0%),
+      secondary-right: hsl(0 0% 0%)
+    ),
+    form: (
+      border: hsl(0 0% 0%),
+      border-focus: hsl(0 0% 0%),
+      label: hsl(0 0% 45%),
+      ring-focus: hsl(0 0% 0%)
     ),
     prism: (
       color: hsl(243 14% 29%),
@@ -17,6 +33,9 @@
       constant: rgb(63, 107, 202),
       class-name: hsl(0 0% 7%),
       regex: hsl(1 48% 59%)
+    ),
+    selection: (
+      background: hsl(210 100% 45%)
     )
   ),
   $settings: (
@@ -28,6 +47,8 @@
   $border-radius-lg: 0,
   $font-family-base: #{'Figtree', sans-serif},
   $font-family-heading: #{'Space Mono', monospace},
+  $form-control-focus-ring-box-shadow-type: inset,
+  $form-control-focus-ring-width: 1px,
   $container-width: 50rem,
   $line-height-heading: calc(2px + 2.25ex + 2px),
   $transition-duration: 0

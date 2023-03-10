@@ -1,0 +1,7 @@
+@use 'sprucecss/scss/spruce';
+
+.accordion-list {
+  > * + * {
+    border-block-start: 1px solid spruce.color(border);
+  }
+}
