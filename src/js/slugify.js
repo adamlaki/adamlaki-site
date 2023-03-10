@@ -1,6 +1,8 @@
 (() => {
   const form = document.querySelector('.form-slugify');
   const copyBtn = document.querySelector('.form-slugify__copy');
+  const generateBtn = form.querySelector('.form-slugify__generate');
+  const resetBtn = form.querySelector('.form-slugify__reset');
   const input = form.querySelector('.form-slugify__input');
   const output = form.querySelector('.form-slugify__output');
 
@@ -31,7 +33,24 @@
 
     if (input.value.length < 3) return;
 
+    copyBtn.removeAttribute('disabled');
     output.value = slugify(input.value);
+  });
+
+  form.addEventListener('reset', function(e) {
+    generateBtn.setAttribute('disabled', true);
+    resetBtn.setAttribute('disabled', true);
+    copyBtn.setAttribute('disabled', true);
+  });
+
+  input.addEventListener('input', function(e) {
+    if (input.value.length > 2) {
+      generateBtn.removeAttribute('disabled');
+      resetBtn.removeAttribute('disabled');
+    } else {
+      generateBtn.setAttribute('disabled', true);
+      resetBtn.setAttribute('disabled', true);
+    }
   });
 
   copyBtn.addEventListener('click', function(e) {

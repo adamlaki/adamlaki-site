@@ -1,6 +1,8 @@
 (() => {
   const form = document.querySelector('.form-capitalize');
   const copyBtn = document.querySelector('.form-capitalize__copy');
+  const generateBtn = form.querySelector('.form-capitalize__generate');
+  const resetBtn = form.querySelector('.form-capitalize__reset');
   const input = form.querySelector('.form-capitalize__input');
   const output = form.querySelector('.form-capitalize__output');
   const small = "(a|an|and|as|at|but|by|en|for|if|in|of|on|or|the|to|v[.]?|via|vs[.]?)";
@@ -63,7 +65,24 @@
 
     if (input.value.length < 3) return;
 
+    copyBtn.removeAttribute('disabled');
     output.value = capitalize(input.value);
+  });
+
+  form.addEventListener('reset', function(e) {
+    generateBtn.setAttribute('disabled', true);
+    resetBtn.setAttribute('disabled', true);
+    copyBtn.setAttribute('disabled', true);
+  });
+
+  input.addEventListener('input', function(e) {
+    if (input.value.length > 2) {
+      generateBtn.removeAttribute('disabled');
+      resetBtn.removeAttribute('disabled');
+    } else {
+      generateBtn.setAttribute('disabled', true);
+      resetBtn.setAttribute('disabled', true);
+    }
   });
 
   copyBtn.addEventListener('click', function(e) {
