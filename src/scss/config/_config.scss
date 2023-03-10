@@ -39,7 +39,8 @@
     )
   ),
   $settings: (
-    prefix: adam
+    prefix: adam,
+    hyphens: false
   ),
   $font-size-base: 1.0375rem,
   $font-size-lead: clamp(1.2rem, 2vw + 1rem, 2rem),
