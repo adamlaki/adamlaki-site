@@ -10,19 +10,22 @@
       <div class="accordion-card">
         <h3 class="accordion-card__title">Title Capitalization</h3>
         <div class="accordion-card__content">
-          <form data-action="capitalize-title">
+          <form class="form-capitalize">
             <div class="form-group-list">
               <div class="form-group">
                 <label class="form-label" for="your-title">Your title</label>
-                <input class="form-control" id="your-title" name="your-title" type="text"/>
+                <input class="form-control form-capitalize__input" id="your-title" name="your-title" type="text" autocomplete="off"/>
               </div>
               <div class="form-group">
                 <label class="form-label" for="your-title">Your capitalized title</label>
-                <input class="form-control" id="your-title" name="your-title" type="text"/>
+                <input class="form-control form-capitalize__output" disabled id="your-title" name="your-title" type="text"/>
               </div>
-              <div class="form-group form-group--btns">
-                <button type="button" class="btn btn--primary">Generate</button>
-                <button type="button" class="btn btn--secondary">Copy</button>
+              <div class="form-group form-group--btns form-group--btns-space-between">
+                <div class="form-group form-group--btns">
+                  <button type="submit" class="btn btn--primary">Generate</button>
+                  <button type="reset" class="btn btn--secondary">Reset</button>
+                </div>
+                <button type="button" class="btn btn--secondary form-capitalize__copy">Copy</button>
               </div>
             </div>
           </form>
@@ -40,4 +43,5 @@
 
 {% block script %}
   <script src="/js/accordion-card.js?{{ assetHash }}"></script>
+  <script src="/js/capitalize.js?{{ assetHash }}"></script>
 {% endblock %}

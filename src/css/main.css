@@ -326,7 +326,7 @@ template {
 
 :root {
   --adam-selection-color-foreground: hsl(0, 0%, 100%);
-  --adam-selection-color-background: hsl(0, 0%, 0%);
+  --adam-selection-color-background: hsl(210, 100%, 45%);
 }
 
 :root {
@@ -343,6 +343,7 @@ template {
   --adam-btn-color-secondary-background: hsl(0, 0%, 95%);
   --adam-btn-color-secondary-background-hover: hsl(0, 0%, 95%);
   --adam-btn-color-secondary-foreground: hsl(0, 0%, 0%);
+  --adam-btn-color-secondary-right: hsl(0, 0%, 0%);
 }
 
 :root {
@@ -357,7 +358,7 @@ template {
   --adam-form-color-check-focus-ring: hsl(0, 0%, 0%);
   --adam-form-color-invalid: hsl(0, 71%, 51%);
   --adam-form-color-invalid-focus-ring: rgba(219, 41, 41, 0.25);
-  --adam-form-color-label: hsl(0, 0%, 0%);
+  --adam-form-color-label: hsl(0, 0%, 45%);
   --adam-form-color-legend: hsl(0, 0%, 0%);
   --adam-form-color-placeholder: hsl(208, 7%, 40%);
   --adam-form-color-range-thumb-background: hsl(0, 0%, 0%);
@@ -956,7 +957,7 @@ samp {
 }
 .form-control:focus {
   border-color: var(--adam-form-color-border-focus);
-  box-shadow: 0 0 0 0.25rem var(--adam-form-color-ring-focus);
+  box-shadow: 0 0 0 1px var(--adam-form-color-ring-focus) inset;
   outline: 2px solid transparent;
 }
 .form-control[type=color] {
@@ -1000,7 +1001,7 @@ html[dir=rtl] .form-control--valid, html[dir=rtl] .form-control--invalid {
 }
 .form-control--valid:focus {
   border-color: var(--adam-form-color-valid);
-  box-shadow: 0 0 0 0.25rem var(--adam-form-color-valid-focus-ring);
+  box-shadow: 0 0 0 1px var(--adam-form-color-valid-focus-ring) inset;
   outline: 2px solid transparent;
 }
 .form-control--invalid {
@@ -1009,7 +1010,7 @@ html[dir=rtl] .form-control--valid, html[dir=rtl] .form-control--invalid {
 }
 .form-control--invalid:focus {
   border-color: var(--adam-form-color-invalid);
-  box-shadow: 0 0 0 0.25rem var(--adam-form-color-invalid-focus-ring);
+  box-shadow: 0 0 0 1px var(--adam-form-color-invalid-focus-ring) inset;
   outline: 2px solid transparent;
 }
 .form-control--sm {
@@ -2014,8 +2015,10 @@ pre[class*=language-] {
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   gap: 1rem;
+}
+.form-group--btns-space-between {
+  justify-content: space-between;
 }
 
 :root {
