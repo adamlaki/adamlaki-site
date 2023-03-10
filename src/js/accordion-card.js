@@ -22,6 +22,7 @@
 
       btn.setAttribute('aria-expanded', !expanded);
       heading.nextElementSibling.hidden = expanded;
+      accordion.querySelector('input:first-of-type').focus();
     });
   });
 })();
