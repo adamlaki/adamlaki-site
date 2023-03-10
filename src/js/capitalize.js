@@ -1,6 +1,8 @@
 (() => {
   const form = document.querySelector('.form-capitalize');
   const copyBtn = document.querySelector('.form-capitalize__copy');
+  const input = form.querySelector('.form-capitalize__input');
+  const output = form.querySelector('.form-capitalize__output');
   const small = "(a|an|and|as|at|but|by|en|for|if|in|of|on|or|the|to|v[.]?|via|vs[.]?)";
   const punct = "([!\"#$%&'()*+,./:;<=>?@[\\\\\\]^_`{|}~-]*)";
 
@@ -18,6 +20,12 @@
       Object.prototype.toString.call(val) === '[object String]');
   }
 
+  /*
+   * Capitalize a string
+   * @param {String} str
+   * @return {String}
+   * Source: https://github.com/a-axton/capitalize-title
+   */
   function capitalize(str) {
     if (!isString(str)) return;
     let parts = [];
@@ -53,15 +61,15 @@
   form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    const input = form.querySelector('.form-capitalize__input');
-    const output = form.querySelector('.form-capitalize__output');
+    if (input.value.length < 3) return;
 
     output.value = capitalize(input.value);
   });
 
   copyBtn.addEventListener('click', function(e) {
-    const output = form.querySelector('.form-capitalize__output').value;
-    navigator.clipboard.writeText(output).then(() => {
+    if (output.value.length === 0) return;
+
+    navigator.clipboard.writeText(output.value).then(() => {
       copyBtn.innerHTML = 'Copied!';
 
       setTimeout(() => copyBtn.innerHTML = 'Copy', 2000);
