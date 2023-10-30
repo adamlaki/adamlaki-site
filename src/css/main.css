@@ -961,20 +961,6 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 
 @font-face {
   font-display: swap;
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/space-mono-regular.woff2") format("woff2");
-}
-@font-face {
-  font-display: swap;
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/space-mono-700.woff2") format("woff2");
-}
-@font-face {
-  font-display: swap;
   font-family: "Figtree";
   font-style: normal;
   font-weight: 400;

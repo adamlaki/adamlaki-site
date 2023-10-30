@@ -1,17 +1,6 @@
 @use 'sprucecss/scss/spruce' as *;
 
 @include font-face(
-  'Space Mono',
-  '../fonts/space-mono-regular.woff2'
-);
-
-@include font-face(
-  'Space Mono',
-  '../fonts/space-mono-700.woff2',
-  700
-);
-
-@include font-face(
   'Figtree',
   '../fonts/figtree-regular.woff2'
 );
