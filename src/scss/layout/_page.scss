@@ -1,22 +1,22 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .l-page {
   margin-inline: auto;
 
   &__title {
-    font-size: spruce.responsive-font-size(5rem, 40, '5vw');
-    line-height: spruce.$line-height-sm;
-    margin-block: spruce.spacer-clamp(m, l) spruce.spacer(m);
+    font-size: responsive-font-size(5rem, 40, '5vw');
+    line-height: config('line-height-sm', $typography);
+    margin-block: spacer-clamp('m', 'l') spacer('m');
 
     &--regular {
-      font-family: spruce.$font-family-base;
-      font-size: spruce.responsive-font-size(4.25rem, 40, '5vw');
+      font-family: config('font-family-base', $typography);
+      font-size: responsive-font-size(4.25rem, 40, '5vw');
     }
   }
 
   &__list {
-    @include spruce.layout-stack(l);
-    @include spruce.clear-list;
-    margin-block-start: spruce.spacer(l);
+    @include layout-stack('l');
+    @include clear-list;
+    margin-block-start: spacer('l');
   }
 }

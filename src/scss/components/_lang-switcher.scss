@@ -1,10 +1,10 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .lang-switcher {
-  @include spruce.clear-list;
+  @include clear-list;
   align-items: center;
   display: flex;
-  gap: spruce.spacer(xs);
+  gap: spacer(xs);
 
   > * + * {
     margin-block-start: 0;
@@ -13,10 +13,10 @@
   a {
     align-items: center;
     aspect-ratio: 1;
-    color: spruce.color(text);
+    color: color(text);
     display: flex;
-    font-family: spruce.$font-family-heading;
-    font-size: spruce.$font-size-sm;
+    font-family: config('font-family-heading', $typography);
+    font-size: config('font-size-sm', $typography);
     justify-content: center;
     line-height: 1;
     text-decoration: none;
@@ -28,7 +28,7 @@
     }
 
     &[data-state='active'] {
-      background-color: spruce.color(text);
+      background-color: color(text);
       color: hsl(0 0% 100%);
     }
   }

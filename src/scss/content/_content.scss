@@ -1,11 +1,11 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .post-content {
-  @include spruce.layout-stack;
+  @include layout-stack;
 
   > p:first-child {
-    font-size: spruce.$font-size-lead;
-    line-height: spruce.$line-height-md;
+    font-size: config('font-size-lead', $typography);
+    line-height: config('line-height-md', $typography);
     max-width: 100%;
   }
 
@@ -19,7 +19,7 @@
   h4,
   h5,
   h6 {
-    font-family: spruce.$font-family-base;
+    font-family: config('font-family-base', $typography);
   }
 
   * + h1,
@@ -28,7 +28,7 @@
   * + h4,
   * + h5,
   * + h6 {
-    margin-top: spruce.spacer(l);
+    margin-top: spacer('l');
   }
 
   h1 + *,
@@ -37,11 +37,11 @@
   h4 + *,
   h5 + *,
   h6 + * {
-    margin-top: spruce.spacer(s);
+    margin-top: spacer('s');
   }
 
   img,
   iframe {
-    border-radius: spruce.$border-radius-sm;
+    border-radius: config('border-radius-sm', $display);
   }
 }

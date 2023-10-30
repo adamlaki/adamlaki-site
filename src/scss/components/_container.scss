@@ -1,13 +1,13 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .container {
-  @include spruce.layout-center(
-    spruce.get-css-variable(--container-gap),
-    spruce.get-css-variable(--container-width)
+  @include layout-center(
+    get-css-variable(--container-gap),
+    get-css-variable(--container-width)
   );
 
   &--wide {
-    @include spruce.set-css-variable((
+    @include set-css-variable((
       --container-width: 100%
     ));
   }

@@ -1,34 +1,59 @@
 @use 'sprucecss/scss/spruce' with (
+  // #130842
   $color-black: hsl(0 0% 0%),
   $color-primary: hsl(210 100% 45%),
   $colors: (
     base: (
-      text: hsl(0 0% 0%)
+      'text': hsl(0 0% 0%),
     ),
     prism: (
-      color: hsl(243 14% 29%),
-      background: hsl(0 0% 98%),
-      comment: hsl(225 14% 46%),
-      punctuation: hsl(279 50% 53%),
-      namespace: hsl(173 100% 24%),
-      deleted: hsla(1 83% 63% / 0.56),
-      boolean: hsl(0 44% 53%),
-      number: hsl(315 90% 35%),
-      constant: rgb(63, 107, 202),
-      class-name: hsl(0 0% 7%),
-      regex: hsl(1 48% 59%)
+      'color': hsl(243 14% 29%),
+      'background': hsl(0 0% 98%),
+      'comment': hsl(225 14% 46%),
+      'punctuation': hsl(279 50% 53%),
+      'namespace': hsl(173 100% 24%),
+      'deleted': hsla(1 83% 63% / 0.56),
+      'boolean': hsl(0 44% 53%),
+      'number': hsl(315 90% 35%),
+      'constant': rgb(63, 107, 202),
+      'class-name': hsl(0 0% 7%),
+      'regex': hsl(1 48% 59%),
     )
   ),
-  $settings: (
-    prefix: adam
+  $display: (
+    'border-radius-sm': 0,
+    'border-radius-lg': 0,
   ),
-  $font-size-base: 1.0375rem,
-  $font-size-lead: clamp(1.2rem, 2vw + 1rem, 2rem),
-  $border-radius-sm: 0,
-  $border-radius-lg: 0,
-  $font-family-base: #{'Figtree', sans-serif},
-  $font-family-heading: #{'Space Mono', monospace},
-  $container-width: 50rem,
-  $line-height-heading: calc(2px + 2.25ex + 2px),
-  $transition-duration: 0
+  $generators: (
+    'form': (
+      'btn': false,
+      'file-btn': false,
+      'form-check': false,
+      'form-control': false,
+      'form-description': false,
+      'form-feedback': false,
+      'form-fieldset': false,
+      'form-group': false,
+      'form-label': false,
+      'form-range': false,
+      'form-row': false,
+      'form-switch': false,
+    ),
+  ),
+  $layout: (
+    'container-width': 50rem,
+  ),
+  $settings: (
+    'prefix': 'adam',
+  ),
+  $transition: (
+    'duration': 0,
+  ),
+  $typography: (
+    'font-family-base': #{'Figtree', sans-serif},
+    'font-family-heading': #{'Space Mono', monospace},
+    'font-size-base': 1.0375rem,
+    'font-size-lead': clamp(1.2rem, 2vw + 1rem, 2rem),
+    'line-height-heading': calc(2px + 2.25ex + 2px),
+  ),
 );

@@ -1,15 +1,15 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .site-header {
   align-items: flex-start;
   display: flex;
-  gap: spruce.spacer(m);
-  inset-block-start: spruce.get-css-variable(--container-gap);
+  gap: spacer('m');
+  inset-block-start: get-css-variable(--container-gap);
   justify-content: space-between;
 
-  @include spruce.breakpoint(sm) {
+  @include breakpoint('sm') {
     flex-direction: column;
-    min-height: calc(100vh - #{spruce.get-css-variable(--container-gap)} * 2);
+    min-height: calc(100vh - #{get-css-variable(--container-gap)} * 2);
     position: sticky;
   }
 
@@ -17,7 +17,7 @@
     height: 6rem;
     width: auto;
 
-    @include spruce.breakpoint(sm) {
+    @include breakpoint('sm') {
       height: 7rem;
     }
   }
@@ -25,6 +25,6 @@
   &__helper {
     display: flex;
     flex-direction: column;
-    gap: spruce.spacer(m);
+    gap: spacer('m');
   }
 }

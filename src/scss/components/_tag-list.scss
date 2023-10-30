@@ -1,11 +1,11 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .tag-list {
-  @include spruce.clear-list;
+  @include clear-list;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: spruce.spacer(s);
+  gap: spacer('s');
 
   > * + * {
     margin-block-start: 0;

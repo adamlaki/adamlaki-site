@@ -1,6 +1,6 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
-@include spruce.generate-content;
-@include spruce.generate-btn('.btn');
+@include generate-styles;
+@include generate-btn('.btn');
 
-.btn--primary { @include spruce.btn-variant(primary); }
+.btn--primary { @include btn-variant('primary'); }

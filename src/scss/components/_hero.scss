@@ -1,16 +1,16 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .site-hero {
-  @include spruce.layout-stack(m);
+  @include layout-stack(m);
 
   &__introduction {
-    @include spruce.layout-stack(m);
+    @include layout-stack(m);
 
     h1 {
-      font-family: spruce.$font-family-base;
-      font-size: spruce.responsive-font-size(2rem, 40);
+      font-family: config('font-family-base', $typography);
+      font-size: responsive-font-size(2rem, 40);
       font-weight: 400;
-      line-height: spruce.$line-height-md;
+      line-height: config('line-height-md', $typography);
     }
   }
 }
