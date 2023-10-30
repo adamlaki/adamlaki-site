@@ -1,14 +1,14 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .site-navigation {
-  font-family: spruce.$font-family-heading;
+  font-family: config('font-family-heading', $typography);
 
   ul {
-    @include spruce.clear-list;
-    @include spruce.layout-stack(s);
+    @include clear-list;
+    @include layout-stack(s);
   }
 
   li {
-    line-height: spruce.$line-height-md;
+    line-height: config('line-height-md', $typography);
   }
 }

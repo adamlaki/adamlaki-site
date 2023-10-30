@@ -1,8 +1,8 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .site-footer {
   display: flex;
   flex-wrap: wrap;
-  gap: spruce.spacer(m);
+  gap: spacer('m');
   justify-content: space-between;
 }

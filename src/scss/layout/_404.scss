@@ -1,7 +1,7 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .l-404 {
-  @include spruce.layout-stack;
+  @include layout-stack;
   margin-inline: auto;
 
   &__image {
@@ -9,7 +9,7 @@
   }
 
   &__title {
-    font-family: spruce.$font-family-base;
-    font-size: spruce.responsive-font-size(4.25rem, 40, '5vw');
+    font-family: config('font-family-base', $typography);
+    font-size: responsive-font-size(4.25rem, 40, '5vw');
   }
 }

@@ -1,14 +1,14 @@
 @use 'sass:color';
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .pagination {
-  @include spruce.clear-list;
+  @include clear-list;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  font-family: spruce.$font-family-heading;
-  gap: spruce.spacer(s);
-  margin-block-start: spruce.spacer(xl);
+  font-family: config('font-family-heading', $typography);
+  gap: spacer('s');
+  margin-block-start: spacer('xl');
 
   > * {
     margin-block: 0;
@@ -18,10 +18,10 @@
     --dimension: 2.5rem;
     align-items: center;
     background-color: hsl(0 0% 98%);
-    border-radius: spruce.$border-radius-lg;
-    color: spruce.color(text);
+    border-radius: config('border-radius-lg', $display);
+    color: color(text);
     display: flex;
-    font-size: spruce.$font-size-sm;
+    font-size: config('font-size-sm', $typography);
     height: var(--dimension);
     justify-content: center;
     min-width: var(--dimension);
@@ -30,7 +30,7 @@
 
     &[aria-current='page'],
     &:hover {
-      background-color: spruce.color(text);
+      background-color: color(text);
       color: hsl(0 0% 100%);
       text-decoration: none;
     }

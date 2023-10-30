@@ -3,17 +3,17 @@
 @forward 'components';
 @forward 'content';
 
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 :root {
-  @include spruce.set-css-variable((
-    --container-width: spruce.$container-width,
-    --container-gap: spruce.spacer-clamp(s, l)
+  @include set-css-variable((
+    --container-width: config('container-width', $layout, false),
+    --container-gap: spacer-clamp('s', 'l')
   ));
 }
 
 body {
-  @include spruce.breakpoint(md) {
+  @include breakpoint('md') {
     font-size: 1.1375rem;
   }
 }

@@ -1,27 +1,27 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .l-main {
   &__inner {
     align-items: flex-start;
     display: grid;
-    gap: spruce.spacer(l);
+    gap: spacer('l');
     grid-template-columns: minmax(0, 1fr);
-    padding-block: spruce.get-css-variable(--container-gap);
+    padding-block: get-css-variable(--container-gap);
 
-    @include spruce.breakpoint(sm) {
+    @include breakpoint('sm') {
       grid-template-columns: minmax(0, 10rem) minmax(0, 1fr);
     }
   }
 
   &__body {
-    --spacer: #{spruce.spacer(xl)};
-    @include spruce.layout-stack(var(--spacer));
+    --spacer: #{spacer('xl')};
+    @include layout-stack(var(--spacer));
     margin-inline: auto;
     max-width: 55rem;
     width: 100%;
 
-    @include spruce.breakpoint(sm) {
-      --spacer: #{spruce.spacer(xxl)};
+    @include breakpoint('sm') {
+      --spacer: #{spacer(xxl)};
     }
   }
 }

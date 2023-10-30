@@ -1,28 +1,28 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
-@include spruce.font-face(
+@include font-face(
   'Space Mono',
   '../fonts/space-mono-regular.woff2'
 );
 
-@include spruce.font-face(
+@include font-face(
   'Space Mono',
   '../fonts/space-mono-700.woff2',
   700
 );
 
-@include spruce.font-face(
+@include font-face(
   'Figtree',
   '../fonts/figtree-regular.woff2'
 );
 
-@include spruce.font-face(
+@include font-face(
   'Figtree',
   '../fonts/figtree-500.woff2',
   500
 );
 
-@include spruce.font-face(
+@include font-face(
   'Figtree',
   '../fonts/figtree-700.woff2',
   700
