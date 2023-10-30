@@ -1,9 +1,9 @@
-@use 'sprucecss/scss/spruce';
+@use 'sprucecss/scss/spruce' as *;
 
 .accordion-card {
   $this: &;
 
-  background-color: spruce.color(background);
+  background-color: color('background');
 
   &--js {
     #{$this}__title {
@@ -12,29 +12,29 @@
   }
 
   &__title {
-    font-family: spruce.$font-family-base;
-    font-size: spruce.font-size(h4);
+    font-family: config('font-family-base', $typography);
+    font-size: font-size('h4');
     margin-block: 0;
-    padding-block: spruce.spacer(m);
+    padding-block: spacer('m');
   }
 
   &__toggle {
-    @include spruce.clear-btn;
+    @include clear-btn;
     align-items: center;
     display: flex;
-    gap: spruce.spacer(m);
+    gap: spacer('m');
     justify-content: space-between;
-    padding-block: spruce.spacer(m);
+    padding-block: spacer('m');
     text-align: start;
     width: 100%;
 
     &:focus-visible {
       svg {
-        @include spruce.focus-ring(
-          $type: spruce.$btn-focus-ring-type,
-          $ring-color: spruce.color(primary),
-          $ring-width: spruce.$btn-focus-ring-width,
-          $ring-offset: spruce.$btn-focus-ring-offset
+        @include focus-ring(
+          $type: config('focus-ring-type', $btn, false),
+          $ring-color: color('primary'),
+          $ring-size: config('focus-ring-size', $btn, false),
+          $ring-offset: config('focus-ring-offset', $btn, false)
         );
       }
     }
@@ -42,8 +42,8 @@
     svg {
       --dimension: 1.75rem;
 
-      background-color: spruce.color(heading);
-      border-radius: spruce.$border-radius-sm;
+      background-color: color('heading');
+      border-radius: config('border-radius-sm', $display);
       color: hsl(0 0% 100%);
       flex-shrink: 0;
       height: var(--dimension);
@@ -56,7 +56,7 @@
   }
 
   &__content {
-    @include spruce.layout-stack(xs);
-    padding-block-end: spruce.spacer(m);
+    @include layout-stack(xs);
+    padding-block-end: spacer('m');
   }
 }

@@ -4,7 +4,7 @@
   @include clear-list;
   align-items: center;
   display: flex;
-  gap: spacer(xs);
+  gap: spacer('xs');
 
   > * + * {
     margin-block-start: 0;

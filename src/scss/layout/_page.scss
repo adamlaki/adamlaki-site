@@ -5,7 +5,7 @@
 
   &--tools {
     .accordion-list {
-      margin-block-start: spruce.spacer(l);
+      margin-block-start: spacer('l');
       max-width: 40rem;
     }
   }

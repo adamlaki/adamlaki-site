@@ -1,7 +1,7 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .l-projects {
-  @include layout-stack(m);
+  @include layout-stack('m');
 
   &__inner {
     --spacer: #{spacer('m')};

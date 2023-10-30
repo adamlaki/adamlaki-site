@@ -569,18 +569,6 @@ body {
   line-height: 1.8;
 }
 
-p,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  hyphens: auto;
-  overflow-wrap: break-word;
-}
-
 h1,
 h2,
 h3,
@@ -943,6 +931,10 @@ samp {
 
 .l-page {
   margin-inline: auto;
+}
+.l-page--tools .accordion-list {
+  margin-block-start: 3rem;
+  max-width: 40rem;
 }
 .l-page__title {
   font-size: clamp(3rem, 5vw, 5rem);
@@ -1366,6 +1358,65 @@ pre[class*=language-] {
   font-size: 1.0375rem;
 }
 
+.accordion-list > * + * {
+  border-block-start: 1px solid var(--adam-base-color-border);
+}
+
+.accordion-card {
+  background-color: var(--adam-base-color-background);
+}
+.accordion-card--js .accordion-card__title {
+  padding: 0;
+}
+.accordion-card__title {
+  font-family: Figtree, sans-serif;
+  font-size: clamp(1.10234375rem, 2vw + 1rem, 1.296875rem);
+  margin-block: 0;
+  padding-block: 1.5rem;
+}
+.accordion-card__toggle {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  outline: inherit;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  padding-block: 1.5rem;
+  text-align: start;
+  width: 100%;
+}
+.accordion-card__toggle:focus-visible svg {
+  outline: 2px solid var(--adam-base-color-primary);
+  outline-offset: 2px;
+}
+.accordion-card__toggle svg {
+  --dimension: 1.75rem;
+  background-color: var(--adam-base-color-heading);
+  border-radius: 0;
+  color: hsl(0, 0%, 100%);
+  flex-shrink: 0;
+  height: var(--dimension);
+  width: var(--dimension);
+}
+.accordion-card__toggle[aria-expanded=true] .vertical-line {
+  display: none;
+}
+.accordion-card__content {
+  padding-block-end: 1.5rem;
+}
+.accordion-card__content > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.accordion-card__content > * + * {
+  margin-block-start: 0.5rem;
+}
+
 .site-footer {
   display: flex;
   flex-wrap: wrap;
@@ -1415,6 +1466,24 @@ pre[class*=language-] {
 .post-content img,
 .post-content iframe {
   border-radius: 0;
+}
+
+.form-group-list > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.form-group-list > * + * {
+  margin-block-start: 1rem;
+}
+
+.form-group--btns {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.form-group--btns-space-between {
+  justify-content: space-between;
 }
 
 :root {

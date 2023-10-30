@@ -1,7 +1,7 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .blog-card {
-  @include layout-stack(xxs);
+  @include layout-stack('xxs');
 
   &__title {
     font-family: config('font-family-base', $typography);

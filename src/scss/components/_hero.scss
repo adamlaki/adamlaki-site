@@ -1,10 +1,10 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .site-hero {
-  @include layout-stack(m);
+  @include layout-stack('m');
 
   &__introduction {
-    @include layout-stack(m);
+    @include layout-stack('m');
 
     h1 {
       font-family: config('font-family-base', $typography);

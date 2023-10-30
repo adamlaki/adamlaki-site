@@ -5,7 +5,7 @@
 
   ul {
     @include clear-list;
-    @include layout-stack(s);
+    @include layout-stack('s');
   }
 
   li {

@@ -21,7 +21,7 @@
     width: 100%;
 
     @include breakpoint('sm') {
-      --spacer: #{spacer(xxl)};
+      --spacer: #{spacer('xxl')};
     }
   }
 }

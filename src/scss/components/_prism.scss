@@ -2,7 +2,7 @@
 
 code[class*='language-'],
 pre[class*='language-'] {
-  color: color(color, prism);
+  color: color('color', 'prism');
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: config('font-size-base', $typography);
   hyphens: none;
@@ -36,27 +36,27 @@ pre[class*='language-'] code {
 
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  background: color(background, prism);
+  background: color('background', 'prism');
   overflow-x: auto;
 }
 
 .token.comment,
 .token.prolog,
 .token.cdata {
-  color: color(comment, prism);
+  color: color('comment', 'prism');
   font-style: italic;
 }
 
 .token.punctuation {
-  color: color(punctuation, prism);
+  color: color('punctuation', 'prism');
 }
 
 .namespace {
-  color: color(namespace, prism);
+  color: color('namespace', 'prism');
 }
 
 .token.deleted {
-  color: color(deleted, prism);
+  color: color('deleted', 'prism');
   font-style: italic;
 }
 
@@ -64,19 +64,19 @@ pre[class*='language-'] {
 .token.operator,
 .token.keyword,
 .token.property {
-  color: color(namespace, prism);
+  color: color('namespace', 'prism');
 }
 
 .token.tag {
-  color: color(punctuation, prism);
+  color: color('punctuation', 'prism');
 }
 
 .token.boolean {
-  color: color(boolean, prism);
+  color: color('boolean', 'prism');
 }
 
 .token.number {
-  color: color(number, prism);
+  color: color('number', 'prism');
 }
 
 .token.constant,
@@ -87,31 +87,31 @@ pre[class*='language-'] {
 .language-css .token.string,
 .style .token.string,
 .token.char {
-  color: color(constant, prism);
+  color: color('constant', 'prism');
 }
 
 .token.selector,
 .token.function,
 .token.doctype {
-  color: color(punctuation, prism);
+  color: color('punctuation', 'prism');
   font-style: italic;
 }
 
 .token.attr-name,
 .token.inserted {
-  color: color(constant, prism);
+  color: color('constant', 'prism');
   font-style: italic;
 }
 
 .token.class-name,
 .token.atrule {
-  color: color(class-name, prism);
+  color: color('class-name', 'prism');
 }
 
 .token.regex,
 .token.important,
 .token.variable {
-  color: color(regex, prism);
+  color: color('regex', 'prism');
 }
 
 .token.important,
