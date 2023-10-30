@@ -1,10 +1,10 @@
 @use 'sprucecss/scss/spruce' with (
   // #130842
   $color-black: hsl(0 0% 0%),
-  $color-primary: hsl(210 100% 45%),
+  $color-primary: rgb(0, 102, 255),
   $colors: (
     base: (
-      'text': hsl(0 0% 0%),
+      'text': rgb(93, 99, 100),
     ),
     prism: (
       'color': hsl(243 14% 29%),
@@ -21,15 +21,15 @@
     )
   ),
   $display: (
-    'border-radius-sm': 0,
-    'border-radius-lg': 0,
+    'border-radius-sm': 0.65rem,
+    'border-radius-lg': 0.95rem,
   ),
   $generators: (
     'form': (
       'btn': false,
       'file-btn': false,
       'form-check': false,
-      'form-control': false,
+      'form-control': true,
       'form-description': false,
       'form-feedback': false,
       'form-fieldset': false,
@@ -52,7 +52,7 @@
   ),
   $typography: (
     'font-family-base': #{'Figtree', sans-serif},
-    'font-family-heading': #{'Space Mono', monospace},
+    'font-family-heading': #{'Figtree', sans-serif},
     'font-size-base': 1.0375rem,
     'font-size-lead': clamp(1.2rem, 2vw + 1rem, 2rem),
     'line-height-heading': calc(2px + 2.25ex + 2px),

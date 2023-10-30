@@ -4,3 +4,4 @@
 @include generate-btn('.btn');
 
 .btn--primary { @include btn-variant('primary'); }
+.btn--primary-outline { @include btn-variant-outline('primary'); }

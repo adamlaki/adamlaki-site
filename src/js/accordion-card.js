@@ -2,8 +2,6 @@
   document.querySelectorAll('.accordion-card').forEach((accordion) => {
     const heading = accordion.querySelector('.accordion-card__title');
 
-    accordion.classList.add('accordion-card--js');
-
     heading.nextElementSibling.hidden = true;
     heading.innerHTML = `
       <button class="accordion-card__toggle" aria-expanded="false">

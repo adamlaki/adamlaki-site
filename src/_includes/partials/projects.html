@@ -1,5 +1,5 @@
 <div class="l-projects">
-  <h2 class="section-title h3">{{ projects.title }}</h2>
+  <h2 class="section-title">{{ projects.title }}</h2>
   <div class="l-projects__inner">
     {% if projects.cards %}
       {% for card in projects.cards %}
@@ -10,6 +10,7 @@
             </a>
           </h2>
           <p class="project-card__description">{{ card.description }}</p>
+          <p class="project-card__counter">0{{ loop.index }}</p>
         </div>
       {% endfor %}
     {% endif %}

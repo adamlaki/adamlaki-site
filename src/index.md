@@ -7,6 +7,9 @@ coverAlt: "An abstract bauhaus illustration with basic geometric formations."
 projects:
   title: "Projects"
   cards:
+    - title: "Cone"
+      url: "https://conedevelopment.com/"
+      description: "Our contractor service site. Check out how can we help you to develop your next web-based project."
     - title: "Spruce CSS"
       url: "https://sprucecss.com"
       description: "A low-level, lightweight and modern CSS design system, authoring tool built on Sass."
@@ -16,9 +19,6 @@ projects:
     - title: "Root"
       url: "https://root.conedevelopment.com/"
       description: "Root is an admin package for Laravel applications with extension support."
-    - title: "Cone"
-      url: "https://conedevelopment.com/"
-      description: "Our contractor service site. Check out how can we help you to develop your next web-based project."
 ---
 
 # Hey, I’m Adam! **I’m a passionate, accessibility-focused front-end developer.** I develop with Gatsby, 11ty, and WordPress. I like to learn and try out new things in my field.

@@ -11,4 +11,22 @@
   li {
     line-height: config('line-height-md', $typography);
   }
+
+  a {
+    color: color('text');
+    text-decoration: none;
+
+    @include breakpoint('md') {
+      font-size: 1.2rem;
+    }
+
+    &:hover {
+      color: color('primary');
+    }
+
+    &[aria-current="page"] {
+      color: color('primary');
+      font-weight: 700;
+    }
+  }
 }

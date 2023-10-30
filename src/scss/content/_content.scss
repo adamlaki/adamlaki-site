@@ -4,6 +4,7 @@
   @include layout-stack;
 
   > p:first-child {
+    color: color('heading');
     font-size: config('font-size-lead', $typography);
     line-height: config('line-height-md', $typography);
     max-width: 100%;

@@ -13,6 +13,7 @@
   a {
     align-items: center;
     aspect-ratio: 1;
+    border-radius: config('border-radius-sm', $display);
     color: color(text);
     display: flex;
     font-family: config('font-family-heading', $typography);
@@ -28,7 +29,7 @@
     }
 
     &[data-state='active'] {
-      background-color: color(text);
+      background-color: color('primary');
       color: hsl(0 0% 100%);
     }
   }

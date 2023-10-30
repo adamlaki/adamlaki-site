@@ -4,18 +4,14 @@
   $this: &;
 
   background-color: color('background');
-
-  &--js {
-    #{$this}__title {
-      padding: 0;
-    }
-  }
+  border: 1px solid color('border');
+  border-radius: config('border-radius-sm', $display);
+  padding: spacer('m');
 
   &__title {
     font-family: config('font-family-base', $typography);
     font-size: font-size('h4');
     margin-block: 0;
-    padding-block: spacer('m');
   }
 
   &__toggle {
@@ -24,7 +20,6 @@
     display: flex;
     gap: spacer('m');
     justify-content: space-between;
-    padding-block: spacer('m');
     text-align: start;
     width: 100%;
 
@@ -57,6 +52,6 @@
 
   &__content {
     @include layout-stack(xs);
-    padding-block-end: spacer('m');
+    padding-block-start: spacer('m');
   }
 }

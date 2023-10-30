@@ -8,12 +8,12 @@
   }
 
   &__link {
-    color: color(text);
+    color: color('heading');
     text-decoration: none;
 
     &:hover,
     &:focus {
-      color: color(text);
+      color: color('heading');
     }
   }
 

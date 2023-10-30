@@ -316,26 +316,26 @@ template {
 
 :root {
   --adam-base-color-background: hsl(0, 0%, 100%);
-  --adam-base-color-blockquote-border: hsl(210, 100%, 45%);
+  --adam-base-color-blockquote-border: rgb(0, 102, 255);
   --adam-base-color-border: hsl(215, 63%, 93%);
-  --adam-base-color-code-background: #f0f7ff;
+  --adam-base-color-code-background: #f0f6ff;
   --adam-base-color-code-foreground: hsl(0, 0%, 0%);
   --adam-base-color-heading: hsl(0, 0%, 0%);
-  --adam-base-color-link: hsl(210, 100%, 45%);
-  --adam-base-color-link-hover: #005cb8;
+  --adam-base-color-link: rgb(0, 102, 255);
+  --adam-base-color-link-hover: #0052cc;
   --adam-base-color-mark-background: hsl(50, 100%, 80%);
   --adam-base-color-mark-foreground: hsl(0, 0%, 0%);
-  --adam-base-color-marker: hsl(210, 100%, 45%);
-  --adam-base-color-primary: hsl(210, 100%, 45%);
+  --adam-base-color-marker: rgb(0, 102, 255);
+  --adam-base-color-primary: rgb(0, 102, 255);
   --adam-base-color-secondary: hsl(227, 92%, 55%);
-  --adam-base-color-text: hsl(0, 0%, 0%);
+  --adam-base-color-text: rgb(93, 99, 100);
 }
 
 :root {
-  --adam-btn-color-primary-background: hsl(210, 100%, 45%);
-  --adam-btn-color-primary-background-hover: #0059b3;
+  --adam-btn-color-primary-background: rgb(0, 102, 255);
+  --adam-btn-color-primary-background-hover: #0052cc;
   --adam-btn-color-primary-foreground: hsl(0, 0%, 100%);
-  --adam-btn-color-primary-shadow: #99ccff;
+  --adam-btn-color-primary-shadow: #b3d1ff;
   --adam-btn-color-secondary-background: hsl(227, 92%, 55%);
   --adam-btn-color-secondary-background-hover: #0937dc;
   --adam-btn-color-secondary-foreground: hsl(0, 0%, 100%);
@@ -347,9 +347,9 @@ template {
   --adam-form-color-background-disabled: hsl(0, 0%, 95%);
   --adam-form-color-border: hsl(260, 4%, 70%);
   --adam-form-color-border-disabled: hsl(215, 63%, 93%);
-  --adam-form-color-border-focus: hsl(210, 100%, 45%);
-  --adam-form-color-check-background: hsl(210, 100%, 45%);
-  --adam-form-color-check-focus-ring: hsl(210, 100%, 45%);
+  --adam-form-color-border-focus: rgb(0, 102, 255);
+  --adam-form-color-check-background: rgb(0, 102, 255);
+  --adam-form-color-check-focus-ring: rgb(0, 102, 255);
   --adam-form-color-check-foreground: hsl(0, 0%, 100%);
   --adam-form-color-group-label-background: hsl(210, 60%, 98%);
   --adam-form-color-group-label-foreground: hsl(208, 9%, 42%);
@@ -358,10 +358,10 @@ template {
   --adam-form-color-label: hsl(0, 0%, 0%);
   --adam-form-color-legend: hsl(0, 0%, 0%);
   --adam-form-color-placeholder: hsl(208, 7%, 40%);
-  --adam-form-color-range-thumb-background: hsl(210, 100%, 45%);
-  --adam-form-color-range-thumb-focus-ring: hsl(210, 100%, 45%);
+  --adam-form-color-range-thumb-background: rgb(0, 102, 255);
+  --adam-form-color-range-thumb-focus-ring: rgb(0, 102, 255);
   --adam-form-color-range-track-background: hsl(215, 63%, 93%);
-  --adam-form-color-ring-focus: rgba(0, 115, 230, 0.25);
+  --adam-form-color-ring-focus: rgba(0, 102, 255, 0.25);
   --adam-form-color-select-foreground: hsl(0, 0%, 0%);
   --adam-form-color-text: hsl(208, 9%, 42%);
   --adam-form-color-valid: hsl(150, 100%, 33%);
@@ -370,7 +370,7 @@ template {
 
 :root {
   --adam-selection-color-foreground: hsl(0, 0%, 100%);
-  --adam-selection-color-background: hsl(210, 100%, 45%);
+  --adam-selection-color-background: rgb(0, 102, 255);
 }
 
 :root {
@@ -550,13 +550,13 @@ figure figcaption {
 }
 .table--rounded th:first-child,
 .table--rounded td:first-child {
-  border-end-start-radius: 0;
-  border-start-start-radius: 0;
+  border-end-start-radius: 0.65rem;
+  border-start-start-radius: 0.65rem;
 }
 .table--rounded th:last-child,
 .table--rounded td:last-child {
-  border-end-end-radius: 0;
-  border-start-end-radius: 0;
+  border-end-end-radius: 0.65rem;
+  border-start-end-radius: 0.65rem;
 }
 
 html {
@@ -576,7 +576,7 @@ h4,
 h5,
 h6 {
   color: var(--adam-base-color-heading);
-  font-family: Space Mono, monospace;
+  font-family: Figtree, sans-serif;
   font-weight: 700;
   line-height: calc(2px + 2.25ex + 2px);
 }
@@ -683,7 +683,7 @@ abbr[title] {
 
 mark {
   background-color: var(--adam-base-color-mark-background);
-  border-radius: 0;
+  border-radius: 0.65rem;
   color: var(--adam-base-color-mark-foreground);
   padding: 0.1em 0.3em;
 }
@@ -692,7 +692,7 @@ code,
 kbd,
 samp {
   background-color: var(--adam-base-color-code-background);
-  border-radius: 0;
+  border-radius: 0.65rem;
   color: var(--adam-base-color-code-foreground);
   padding: 0.1em 0.3em;
 }
@@ -730,11 +730,126 @@ samp {
   font-size: 1.0375rem;
 }
 
+.form-control {
+  --webkit-date-line-height: 1.375;
+  appearance: none;
+  background-color: var(--adam-form-color-background);
+  border: 1px solid var(--adam-form-color-border);
+  border-radius: 0.65rem;
+  box-sizing: border-box;
+  color: var(--adam-form-color-text);
+  display: block;
+  font-size: 1.0375rem;
+  inline-size: 100%;
+  line-height: 1.5;
+  padding: 0.5em 0.75em;
+  transition-duration: var(--adam-duration);
+  transition-property: border, box-shadow;
+  transition-timing-function: var(--adam-timing-function);
+}
+.form-control::placeholder {
+  color: var(--adam-form-color-placeholder);
+}
+.form-control::-webkit-datetime-edit {
+  line-height: var(--webkit-date-line-height);
+}
+.form-control:focus {
+  border-color: var(--adam-form-color-border-focus);
+  box-shadow: 0 0 0 0.25rem var(--adam-form-color-ring-focus);
+  outline: 2px solid transparent;
+}
+.form-control[type=color] {
+  aspect-ratio: 1;
+  block-size: 100%;
+  inline-size: 2.625rem;
+  padding: 0.5em;
+}
+.form-control[type=color]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+.form-control[type=color]::-moz-color-swatch {
+  border: 0;
+  border-radius: 0.65rem;
+}
+.form-control[type=color]::-webkit-color-swatch {
+  border: 0;
+  border-radius: 0.65rem;
+}
+.form-control[disabled], .form-control[disabled=true] {
+  background-color: var(--adam-form-color-background-disabled);
+  border-color: var(--adam-form-color-border-disabled);
+  cursor: not-allowed;
+}
+textarea.form-control {
+  block-size: 6rem;
+  min-block-size: 6rem;
+  resize: vertical;
+}
+
+.form-control--valid, .form-control--invalid {
+  background-position: center right 0.5em;
+  background-repeat: no-repeat;
+  background-size: 1.25em auto;
+  padding-inline-end: 2em;
+}
+html[dir=rtl] .form-control--valid, html[dir=rtl] .form-control--invalid {
+  background-position: center left 0.5em;
+}
+.form-control--valid {
+  background-image: url('data:image/svg+xml,%3csvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"%3e%3cpath d="M12,2c5.519,0 10,4.481 10,10c0,5.519 -4.481,10 -10,10c-5.519,0 -10,-4.481 -10,-10c0,-5.519 4.481,-10 10,-10Zm0,1.667c4.599,-0 8.333,3.734 8.333,8.333c0,4.599 -3.734,8.333 -8.333,8.333c-4.599,0 -8.333,-3.734 -8.333,-8.333c-0,-4.599 3.734,-8.333 8.333,-8.333Zm-1.476,10.182l-2.984,-2.984c-0.065,-0.065 -0.17,-0.065 -0.235,0l-0.943,0.943c-0.065,0.065 -0.065,0.171 -0,0.236l4.043,4.042c0.033,0.033 0.076,0.05 0.119,0.049c0.044,0.001 0.087,-0.016 0.12,-0.049l6.994,-6.994c0.065,-0.065 0.065,-0.17 0,-0.235l-0.943,-0.943c-0.065,-0.065 -0.17,-0.065 -0.235,-0l-5.936,5.935Z" style="fill:hsl%28150, 100%, 33%%29;"/%3e%3c/svg%3e');
+  border-color: var(--adam-alert-color-success);
+}
+.form-control--valid:focus {
+  border-color: var(--adam-form-color-valid);
+  box-shadow: 0 0 0 0.25rem var(--adam-form-color-valid-focus-ring);
+  outline: 2px solid transparent;
+}
+.form-control--invalid {
+  background-image: url('data:image/svg+xml,%3csvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"%3e%3cpath d="M12,2c5.519,0 10,4.481 10,10c0,5.519 -4.481,10 -10,10c-5.519,0 -10,-4.481 -10,-10c0,-5.519 4.481,-10 10,-10Zm0,1.667c4.599,-0 8.333,3.734 8.333,8.333c0,4.599 -3.734,8.333 -8.333,8.333c-4.599,0 -8.333,-3.734 -8.333,-8.333c-0,-4.599 3.734,-8.333 8.333,-8.333Zm0.813,11.649c-0,-0.081 -0.065,-0.146 -0.146,-0.146l-1.334,0c-0.081,0 -0.146,0.065 -0.146,0.146l0,1.169c0,0.08 0.065,0.146 0.146,0.146l1.334,-0c0.081,-0 0.146,-0.066 0.146,-0.146l-0,-1.169Zm-0,-7.784c-0,-0.09 -0.073,-0.163 -0.163,-0.163l-1.3,0c-0.09,0 -0.163,0.073 -0.163,0.163l0,6.351c0,0.09 0.073,0.163 0.163,0.163l1.3,-0c0.09,-0 0.163,-0.073 0.163,-0.163l-0,-6.351Z" style="fill:hsl%280, 71%, 51%%29;"/%3e%3c/svg%3e');
+  border-color: var(--adam-alert-color-danger);
+}
+.form-control--invalid:focus {
+  border-color: var(--adam-form-color-invalid);
+  box-shadow: 0 0 0 0.25rem var(--adam-form-color-invalid-focus-ring);
+  outline: 2px solid transparent;
+}
+.form-control--sm {
+  --webkit-date-line-height: 1.36;
+  padding: 0.25em 0.75em;
+}
+.form-control--sm[type=color] {
+  aspect-ratio: 1;
+  block-size: 100%;
+  inline-size: 1.925rem;
+  padding: 0.25em;
+}
+.form-control--lg {
+  --webkit-date-line-height: 1.387;
+  padding: 0.65em 1em;
+}
+.form-control--lg[type=color] {
+  aspect-ratio: 1;
+  height: 100%;
+  inline-size: 3.204rem;
+  padding: 0.5em;
+}
+
+select.form-control:not([multiple]):not([size]) {
+  background-image: url('data:image/svg+xml,%3csvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"%3e%3cpath d="M12,12.507l-3.816,-3.815c-0.171,-0.172 -0.45,-0.172 -0.622,-0l-0.933,0.933c-0.172,0.172 -0.172,0.451 0,0.623l5.06,5.06c0.172,0.172 0.45,0.172 0.622,0l5.06,-5.06c0.172,-0.172 0.172,-0.451 -0,-0.623l-0.933,-0.933c-0.172,-0.172 -0.451,-0.172 -0.622,-0l-3.816,3.815Z" style="fill:hsl%280, 0%, 0%%29;"/%3e%3c/svg%3e');
+  background-position: center right 0.5em;
+  background-repeat: no-repeat;
+  background-size: 1.25em auto;
+  padding-inline-end: 2em;
+}
+html[dir=rtl] select.form-control:not([multiple]):not([size]) {
+  background-position: center left 0.5em;
+}
+
 .form-group-label {
   align-items: center;
   background-color: var(--adam-form-color-group-label-background);
   border: 1px solid var(--adam-form-color-border);
-  border-radius: 0;
+  border-radius: 0.65rem;
   color: var(--adam-form-color-group-label-foreground);
   display: flex;
   padding-inline: 1rem;
@@ -742,7 +857,7 @@ samp {
 
 .btn {
   align-items: center;
-  border-radius: 0;
+  border-radius: 0.65rem;
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
@@ -827,6 +942,21 @@ samp {
 }
 .btn--primary-shadow {
   box-shadow: 0 0.55em 1em -0.2em var(--adam-btn-color-primary-shadow), 0 0.15em 0.35em -0.185em var(--adam-btn-color-primary-shadow);
+}
+
+.btn--primary-outline {
+  background-color: transparent;
+  border-color: var(--adam-btn-color-primary-background);
+  color: var(--adam-btn-color-primary-background);
+}
+.btn--primary-outline:focus-visible {
+  outline: 2px solid var(--adam-btn-color-primary-background);
+  outline-offset: 2px;
+}
+.btn--primary-outline:hover {
+  background-color: var(--adam-btn-color-primary-background);
+  border-color: var(--adam-btn-color-primary-background);
+  color: var(--adam-btn-color-primary-foreground);
 }
 
 @font-face {
@@ -972,7 +1102,7 @@ samp {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  font-family: Space Mono, monospace;
+  font-family: Figtree, sans-serif;
   gap: 1.5rem;
   margin-block-end: 1.5rem;
 }
@@ -1047,9 +1177,10 @@ samp {
 .lang-switcher a {
   align-items: center;
   aspect-ratio: 1;
+  border-radius: 0.65rem;
   color: var(--adam-base-color-text);
   display: flex;
-  font-family: Space Mono, monospace;
+  font-family: Figtree, sans-serif;
   font-size: 0.875rem;
   justify-content: center;
   line-height: 1;
@@ -1061,12 +1192,12 @@ samp {
   background-color: hsl(0, 0%, 98%);
 }
 .lang-switcher a[data-state=active] {
-  background-color: var(--adam-base-color-text);
+  background-color: var(--adam-base-color-primary);
   color: hsl(0, 0%, 100%);
 }
 
 .site-navigation {
-  font-family: Space Mono, monospace;
+  font-family: Figtree, sans-serif;
 }
 .site-navigation ul {
   list-style: none;
@@ -1082,6 +1213,22 @@ samp {
 }
 .site-navigation li {
   line-height: 1.5;
+}
+.site-navigation a {
+  color: var(--adam-base-color-text);
+  text-decoration: none;
+}
+@media (min-width: 64em) {
+  .site-navigation a {
+    font-size: 1.2rem;
+  }
+}
+.site-navigation a:hover {
+  color: var(--adam-base-color-primary);
+}
+.site-navigation a[aria-current=page] {
+  color: var(--adam-base-color-primary);
+  font-weight: 700;
 }
 
 .site-hero > * {
@@ -1108,8 +1255,8 @@ samp {
 .project-card {
   --border-radius: clamp(0.5rem, 2vw, 3rem);
   position: relative;
-  background-color: hsl(0, 0%, 98%);
-  border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
+  border: 1px solid var(--adam-base-color-border);
+  border-radius: var(--border-radius);
   color: var(--adam-base-color-text);
   padding: clamp(1.5rem, 5vw, 3rem);
   text-decoration: none;
@@ -1127,16 +1274,22 @@ samp {
 .project-card > * + * {
   margin-block-start: 0.5rem;
 }
+.project-card__counter {
+  color: var(--adam-base-color-primary);
+  font-size: clamp(1.3779296875rem, 2vw + 1rem, 1.62109375rem);
+  font-weight: 700;
+  line-height: 1;
+}
 .project-card__title {
   font-family: Figtree, sans-serif;
-  font-size: clamp(1.10234375rem, 2vw + 1rem, 1.296875rem);
+  font-size: clamp(1.3779296875rem, 2vw + 1rem, 1.62109375rem);
 }
 .project-card__link {
-  color: var(--adam-base-color-text);
+  color: var(--adam-base-color-heading);
   text-decoration: none;
 }
 .project-card__link:hover, .project-card__link:focus {
-  color: var(--adam-base-color-text);
+  color: var(--adam-base-color-heading);
 }
 
 .container {
@@ -1290,7 +1443,7 @@ pre[class*=language-] {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  font-family: Space Mono, monospace;
+  font-family: Figtree, sans-serif;
   gap: 1rem;
   margin-block-start: 4.5rem;
 }
@@ -1301,7 +1454,7 @@ pre[class*=language-] {
   --dimension: 2.5rem;
   align-items: center;
   background-color: hsl(0, 0%, 98%);
-  border-radius: 0;
+  border-radius: 0.95rem;
   color: var(--adam-base-color-text);
   display: flex;
   font-size: 0.875rem;
@@ -1333,17 +1486,17 @@ pre[class*=language-] {
   font-family: Figtree, sans-serif;
 }
 .blog-card__link {
-  color: var(--adam-base-color-text);
+  color: var(--adam-base-color-heading);
   text-decoration: none;
 }
 .blog-card__link:hover, .blog-card__link:focus {
-  color: var(--adam-base-color-text);
+  color: var(--adam-base-color-heading);
 }
 .blog-card__meta {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  font-family: Space Mono, monospace;
+  font-family: Figtree, sans-serif;
   gap: 1.5rem;
 }
 
@@ -1358,21 +1511,24 @@ pre[class*=language-] {
   font-size: 1.0375rem;
 }
 
+.accordion-list > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
 .accordion-list > * + * {
-  border-block-start: 1px solid var(--adam-base-color-border);
+  margin-block-start: 1.5rem;
 }
 
 .accordion-card {
   background-color: var(--adam-base-color-background);
-}
-.accordion-card--js .accordion-card__title {
-  padding: 0;
+  border: 1px solid var(--adam-base-color-border);
+  border-radius: 0.65rem;
+  padding: 1.5rem;
 }
 .accordion-card__title {
   font-family: Figtree, sans-serif;
   font-size: clamp(1.10234375rem, 2vw + 1rem, 1.296875rem);
   margin-block: 0;
-  padding-block: 1.5rem;
 }
 .accordion-card__toggle {
   background: none;
@@ -1386,7 +1542,6 @@ pre[class*=language-] {
   display: flex;
   gap: 1.5rem;
   justify-content: space-between;
-  padding-block: 1.5rem;
   text-align: start;
   width: 100%;
 }
@@ -1397,7 +1552,7 @@ pre[class*=language-] {
 .accordion-card__toggle svg {
   --dimension: 1.75rem;
   background-color: var(--adam-base-color-heading);
-  border-radius: 0;
+  border-radius: 0.65rem;
   color: hsl(0, 0%, 100%);
   flex-shrink: 0;
   height: var(--dimension);
@@ -1407,7 +1562,7 @@ pre[class*=language-] {
   display: none;
 }
 .accordion-card__content {
-  padding-block-end: 1.5rem;
+  padding-block-start: 1.5rem;
 }
 .accordion-card__content > * {
   margin-block-end: 0;
@@ -1432,6 +1587,7 @@ pre[class*=language-] {
   margin-block-start: 1.5rem;
 }
 .post-content > p:first-child {
+  color: var(--adam-base-color-heading);
   font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
   line-height: 1.5;
   max-width: 100%;
@@ -1465,7 +1621,7 @@ pre[class*=language-] {
 }
 .post-content img,
 .post-content iframe {
-  border-radius: 0;
+  border-radius: 0.65rem;
 }
 
 .form-group-list > * {

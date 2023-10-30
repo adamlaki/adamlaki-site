@@ -5,24 +5,31 @@
 
   @include a11y-card-link('.project-card__link', true);
   @include layout-stack('xs');
-  background-color: hsl(0 0% 98%);
-  border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
+  border: 1px solid color('border');
+  border-radius: var(--border-radius);
   color: color('text');
   padding: spacer-clamp('m', 'l');
   text-decoration: none;
 
+  &__counter {
+    color: color('primary');
+    font-size: font-size('h3');
+    font-weight: 700;
+    line-height: 1;
+  }
+
   &__title {
     font-family: config('font-family-base', $typography);
-    font-size: font-size('h4');
+    font-size: font-size('h3');
   }
 
   &__link {
-    color: color('text');
+    color: color('heading');
     text-decoration: none;
 
     &:hover,
     &:focus {
-      color: color('text');
+      color: color('heading');
     }
   }
 }
