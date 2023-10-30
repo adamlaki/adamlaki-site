@@ -52,64 +52,57 @@
         <path id="Rectangle9" serif:id="Rectangle" d="M4800,3600l0,-1200l-1200,0l-0,1200l1200,0Z" style="fill:#fdd9d9;"/>
         <path id="Path19" serif:id="Path" d="M4800,3600c0,-331.371 -268.629,-600 -600,-600c-331.371,0 -600,268.629 -600,600" style="fill:#10223b;"/>
         <path id="Path20" serif:id="Path" d="M4800,2400c0,331.371 -268.629,600 -600,600c-331.371,0 -600,-268.629 -600,-600" style="fill:#fff;"/>
-        <path id="Path21" serif:id="Path" d="M3899.25,2400c0,165.685 134.315,300 300,300c165.685,0 300,-134.315 300,-300" style="fill:#10223b;"/>
-        <path id="Path22" serif:id="Path" d="M4199.25,3000c331.371,0 600,268.629 600,600l-600,0" style="fill:#f86f42;"/>
+        <path id="Path21" serif:id="Path" d="M4199.25,3000c331.371,0 600,268.629 600,600l-600,0" style="fill:#f86f42;"/>
     </g>
     <g id="Group-17">
         <path id="Rectangle10" serif:id="Rectangle" d="M4800,2400l0,-1200l-1200,-0l-0,1200l1200,0Z" style="fill:#fff;"/>
-        <path id="Path23" serif:id="Path" d="M4800,2400c0,-331.371 -268.629,-600 -600,-600c-331.371,-0 -600,268.629 -600,600" style="fill:#f86f42;"/>
-        <path id="Path24" serif:id="Path" d="M4800,1200c0,331.371 -268.629,600 -600,600c-331.371,-0 -600,-268.629 -600,-600" style="fill:#fdd9d9;"/>
-        <path id="Path25" serif:id="Path" d="M4200,1800c-331.371,-0 -600,-268.629 -600,-600l600,-0" style="fill:#3266d3;"/>
-        <path id="Path26" serif:id="Path" d="M3899.25,2400c-0,-165.685 134.315,-300 300,-300c165.685,0 300,134.315 300,300" style="fill:#10223b;"/>
+        <path id="Path22" serif:id="Path" d="M4800,2400c0,-331.371 -268.629,-600 -600,-600c-331.371,-0 -600,268.629 -600,600" style="fill:#f86f42;"/>
+        <circle cx="4199.25" cy="2400" r="300" style="fill:#10223b;"/>
     </g>
     <g id="Group-16">
-        <rect id="Rectangle11" serif:id="Rectangle" x="3600" y="0" width="1200" height="1200" style="fill:#10223b;"/>
-        <path id="Path27" serif:id="Path" d="M4800,0c-662.742,0 -1200,537.258 -1200,1200l1200,0" style="fill:#3266d3;"/>
-        <path id="Path28" serif:id="Path" d="M4200,1200c0,-331.371 268.629,-600 600,-600l0,600" style="fill:#fdd9d9;"/>
+        <path id="Path23" serif:id="Path" d="M3600,1198.06c1.073,-661.875 537.919,-1198.06 1200,-1198.06l0,1200l-600,0l0,600c-331.371,-0 -600,-268.629 -600,-600l0.002,-1.941Z" style="fill:#3266d3;"/>
+        <path id="Path24" serif:id="Path" d="M4800,1200c0,331.371 -268.629,600 -600,600l0,-600l0.001,-0.971c0.536,-330.937 268.96,-599.029 599.999,-599.029l0,600Z" style="fill:#fdd9d9;"/>
     </g>
     <g id="Group-13">
-        <rect id="Rectangle12" serif:id="Rectangle" x="4800" y="2400" width="1200" height="1200" style="fill:#fff;"/>
-        <path id="Path29" serif:id="Path" d="M6000,3600c-662.742,0 -1200,-537.258 -1200,-1200l1200,0" style="fill:#fdd9d9;"/>
-        <path id="Path30" serif:id="Path" d="M5400,2400c0,331.371 268.629,600 600,600l0,-600" style="fill:#10223b;"/>
+        <rect id="Rectangle11" serif:id="Rectangle" x="4800" y="2400" width="1200" height="1200" style="fill:#fff;"/>
+        <path id="Path25" serif:id="Path" d="M6000,3600c-662.742,0 -1200,-537.258 -1200,-1200l1200,0" style="fill:#fdd9d9;"/>
+        <path id="Path26" serif:id="Path" d="M5400,2400c0,331.371 268.629,600 600,600l0,-600" style="fill:#10223b;"/>
     </g>
     <g id="Group-12">
-        <rect id="Rectangle13" serif:id="Rectangle" x="4800" y="1200" width="1200" height="1200" style="fill:#3266d3;"/>
-        <path id="Path31" serif:id="Path" d="M6000,1200c-662.742,0 -1200,537.258 -1200,1200l1200,0" style="fill:#10223b;"/>
-        <path id="Path32" serif:id="Path" d="M5400,2400c0,-331.371 268.629,-600 600,-600l0,600" style="fill:#fff;"/>
+        <rect id="Rectangle12" serif:id="Rectangle" x="4800" y="1200" width="1200" height="1200" style="fill:#3266d3;"/>
+        <path id="Path27" serif:id="Path" d="M6000,1200c-662.742,0 -1200,537.258 -1200,1200l1200,0" style="fill:#10223b;"/>
+        <path id="Path28" serif:id="Path" d="M5400,2400c0,-331.371 268.629,-600 600,-600l0,600" style="fill:#fff;"/>
     </g>
     <g id="Group-11">
-        <rect id="Rectangle14" serif:id="Rectangle" x="4800" y="0" width="1200" height="1200" style="fill:#f86f42;"/>
-        <path id="Path33" serif:id="Path" d="M5400,0c-331.371,0 -600,268.629 -600,600c0,331.371 268.629,600 600,600" style="fill:#fff;"/>
-        <path id="Path34" serif:id="Path" d="M5400,0c331.371,0 600,268.629 600,600c0,331.371 -268.629,600 -600,600" style="fill:#3266d3;"/>
+        <rect id="Rectangle13" serif:id="Rectangle" x="4800" y="0" width="1200" height="1200" style="fill:#f86f42;"/>
+        <path id="Path29" serif:id="Path" d="M5400,0c-331.371,0 -600,268.629 -600,600c0,331.371 268.629,600 600,600" style="fill:#fff;"/>
+        <path id="Path30" serif:id="Path" d="M5400,0c331.371,0 600,268.629 600,600c0,331.371 -268.629,600 -600,600" style="fill:#3266d3;"/>
     </g>
     <g id="Group-8">
-        <rect id="Rectangle15" serif:id="Rectangle" x="6000" y="2400" width="1200" height="1200" style="fill:#fdd9d9;"/>
-        <path id="Path35" serif:id="Path" d="M7200,2400c-331.371,0 -600,268.629 -600,600c0,331.371 268.629,600 600,600" style="fill:#3266d3;"/>
-        <path id="Path36" serif:id="Path" d="M6000,2400c331.371,0 600,268.629 600,600c0,331.371 -268.629,600 -600,600" style="fill:#f86f42;"/>
+        <rect id="Rectangle14" serif:id="Rectangle" x="6000" y="2400" width="1200" height="1200" style="fill:#fdd9d9;"/>
+        <path id="Path31" serif:id="Path" d="M7200,2400c-331.371,0 -600,268.629 -600,600c0,331.371 268.629,600 600,600" style="fill:#3266d3;"/>
+        <path id="Path32" serif:id="Path" d="M6000,2400c331.371,0 600,268.629 600,600c0,331.371 -268.629,600 -600,600" style="fill:#f86f42;"/>
     </g>
     <g id="Group-7">
-        <rect id="Rectangle16" serif:id="Rectangle" x="6000" y="1200" width="1200" height="1200" style="fill:#3266d3;"/>
-        <path id="Path37" serif:id="Path" d="M7200,2400c-662.742,0 -1200,-537.258 -1200,-1200l1200,0" style="fill:#fff;"/>
-        <path id="Path38" serif:id="Path" d="M6600,1200c0,331.371 268.629,600 600,600l0,-600" style="fill:#fdd9d9;"/>
+        <rect id="Rectangle15" serif:id="Rectangle" x="6000" y="1200" width="1200" height="1200" style="fill:#3266d3;"/>
+        <path id="Path33" serif:id="Path" d="M7200,2400c-662.742,0 -1200,-537.258 -1200,-1200l1200,0" style="fill:#fff;"/>
+        <path id="Path34" serif:id="Path" d="M6600,1200c0,331.371 268.629,600 600,600l0,-600" style="fill:#fdd9d9;"/>
     </g>
     <g id="Group-6">
-        <rect id="Rectangle17" serif:id="Rectangle" x="6000" y="0" width="1200" height="1200" style="fill:#fff;"/>
-        <path id="Path39" serif:id="Path" d="M7200,0c-662.742,0 -1200,537.258 -1200,1200l1200,0" style="fill:#fdd9d9;"/>
-        <path id="Path40" serif:id="Path" d="M6600,1200c0,-331.371 268.629,-600 600,-600l0,600" style="fill:#10223b;"/>
+        <rect id="Rectangle16" serif:id="Rectangle" x="6000" y="0" width="1200" height="1200" style="fill:#fff;"/>
+        <path id="Path35" serif:id="Path" d="M7200,0c-662.742,0 -1200,537.258 -1200,1200l1200,0" style="fill:#fdd9d9;"/>
+        <path id="Path36" serif:id="Path" d="M6600,1200c0,-331.371 268.629,-600 600,-600l0,600" style="fill:#10223b;"/>
     </g>
     <g id="Group-3">
-        <rect id="Rectangle18" serif:id="Rectangle" x="7200" y="2400" width="1200" height="1200" style="fill:#f86f42;"/>
-        <path id="Path41" serif:id="Path" d="M8400,2400c-662.742,0 -1200,537.258 -1200,1200l1200,0" style="fill:#fff;"/>
-        <path id="Path42" serif:id="Path" d="M7800,3600c0,-331.371 268.629,-600 600,-600l0,600" style="fill:#10223b;"/>
+        <rect id="Rectangle17" serif:id="Rectangle" x="7200" y="2400" width="1200" height="1200" style="fill:#f86f42;"/>
+        <path id="Path37" serif:id="Path" d="M8400,2400c-662.742,0 -1200,537.258 -1200,1200l1200,0" style="fill:#fff;"/>
+        <path id="Path38" serif:id="Path" d="M7800,3600c0,-331.371 268.629,-600 600,-600l0,600" style="fill:#10223b;"/>
     </g>
+    <rect id="Rectangle18" serif:id="Rectangle" x="7200" y="0" width="1200" height="1200" style="fill:#fdd9d9;"/>
+    <path id="Rectangle19" serif:id="Rectangle" d="M7200,0c662.742,0 1200,537.258 1200,1200l0,1200l-1200,0l0,-2400Z" style="fill:#3266d3;"/>
+    <path id="Path39" serif:id="Path" d="M7800,1200c0,-331.371 -268.629,-600 -600,-600l0,600" style="fill:#fff;"/>
     <g id="Group-2">
-        <rect id="Rectangle19" serif:id="Rectangle" x="7200" y="1200" width="1200" height="1200" style="fill:#3266d3;"/>
-        <path id="Path43" serif:id="Path" d="M7800,1200c-331.371,0 -600,268.629 -600,600c0,331.371 268.629,600 600,600" style="fill:#f86f42;"/>
-        <path id="Path44" serif:id="Path" d="M7799.03,2400c-330.937,-0.536 -599.029,-268.96 -599.029,-599.999l600,-0l0,-600c331.371,-0 600,268.629 600,600c0,331.371 -268.629,600 -600,600l-0.971,-0.001Z" style="fill:#10223b;"/>
-    </g>
-    <g id="Group-1">
-        <rect id="Rectangle20" serif:id="Rectangle" x="7200" y="0" width="1200" height="1200" style="fill:#fdd9d9;"/>
-        <path id="Path45" serif:id="Path" d="M7200,0c662.742,0 1200,537.258 1200,1200l-1200,0" style="fill:#3266d3;"/>
-        <path id="Path46" serif:id="Path" d="M7800,1200c0,-331.371 -268.629,-600 -600,-600l0,600" style="fill:#fff;"/>
+        <path id="Path40" serif:id="Path" d="M7800,1200c-331.371,0 -600,268.629 -600,600c0,331.371 268.629,600 600,600" style="fill:#f86f42;"/>
+        <path id="Path41" serif:id="Path" d="M7799.03,2400c-330.937,-0.536 -599.029,-268.96 -599.029,-599.999l600,-0l0,-600c331.371,-0 600,268.629 600,600c0,331.371 -268.629,600 -600,600l-0.971,-0.001Z" style="fill:#10223b;"/>
     </g>
 </svg>
