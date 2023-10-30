@@ -21,6 +21,7 @@ module.exports = config => {
   config.addPassthroughCopy('./src/img/');
   config.addPassthroughCopy('./src/css/');
   config.addPassthroughCopy('./src/fonts/');
+  config.addPassthroughCopy('./src/js/');
   config.addPassthroughCopy('./_redirects');
 
   config.addCollection('blog', collection => {

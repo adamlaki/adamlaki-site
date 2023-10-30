@@ -3,6 +3,13 @@
 .l-page {
   margin-inline: auto;
 
+  &--tools {
+    .accordion-list {
+      margin-block-start: spruce.spacer(l);
+      max-width: 40rem;
+    }
+  }
+
   &__title {
     font-size: responsive-font-size(5rem, 40, '5vw');
     line-height: config('line-height-sm', $typography);

@@ -1,0 +1,30 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+  <div class="l-page l-page--tools">
+    <h1 class="l-page__title">{{ title }}</h1>
+    <div class="post-content">
+      {{ content | safe }}
+    </div>
+    <div class="accordion-list">
+      <div class="accordion-card">
+        <h3 class="accordion-card__title">Title Capitalization</h3>
+        <div class="accordion-card__content">
+          {% include "partials/tools/capitalize.html" %}
+        </div>
+      </div>
+      <div class="accordion-card">
+        <h3 class="accordion-card__title">URL Slug Generator</h3>
+        <div class="accordion-card__content">
+          {% include "partials/tools/slugify.html" %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block script %}
+  <script src="/js/accordion-card.js?{{ assetHash }}"></script>
+  <script src="/js/capitalize.js?{{ assetHash }}"></script>
+  <script src="/js/slugify.js?{{ assetHash }}"></script>
+{% endblock %}
