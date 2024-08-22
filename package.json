@@ -1,25 +1,28 @@
 {
   "scripts": {
     "delete:dist": "del-cli --force dist",
-    "eleventy:dev": "npx eleventy --serve",
-    "eleventy:prod": "npx eleventy",
-    "prod": "npm-run-all delete:dist eleventy:prod sass:prod",
+    "eleventy:serve": "npx eleventy --serve",
+    "eleventy:build": "npx eleventy",
+    "js:lint": "semistandard src/js/*.js",
+    "js:fix": "semistandard src/js/*.js --fix",
+    "build": "npm-run-all delete:dist sass:compile eleventy:build",
     "sass:dev": "sass --load-path=node_modules --watch --no-source-map --update --style=expanded src/scss:src/css",
-    "sass:prod": "sass --load-path=node_modules --load-path=scss --no-source-map --style=compressed src/scss:src/css",
+    "sass:compile": "sass --load-path=node_modules --load-path=scss --no-source-map --style=compressed src/scss:src/css",
+    "sass:fix": "stylelint src/scss/**/*.scss --fix",
     "sass:lint": "stylelint src/scss/**/*.scss",
-    "sass:lint:fix": "stylelint src/scss/**/*.scss --fix",
-    "start": "npm-run-all --parallel eleventy:dev sass:dev"
+    "start": "npm-run-all --parallel eleventy:serve sass:compile"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "del-cli": "^5.1.0",
     "html-minifier": "^4.0.0",
-    "moment": "^2.29.4",
+    "moment": "^2.30.1",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.69.5",
-    "sprucecss": "^2.2.2",
-    "stylelint": "^15.11.0",
-    "stylelint-config-sass-guidelines": "^10.0.0"
+    "sass": "^1.77.8",
+    "sprucecss": "^2.3.3",
+    "semistandard": "^17.0.0",
+    "stylelint": "^16.8.2",
+    "stylelint-config-sass-guidelines": "^12.0.0"
   }
 }
