@@ -1,6 +1,0 @@
-@use 'sprucecss/scss/spruce' as *;
-
-.l-blog {
-  @include layout-stack('l');
-  margin-block-start: spacer('l');
-}

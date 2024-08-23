@@ -24,10 +24,6 @@ module.exports = config => {
   config.addPassthroughCopy('./src/js/');
   config.addPassthroughCopy('./_redirects');
 
-  config.addCollection('blog', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')];
-  });
-
   config.setUseGitIgnore(false);
 
   return {
