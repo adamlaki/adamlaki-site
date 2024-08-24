@@ -1,7 +1,7 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .site-header {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   gap: spacer('m');
   inset-block-start: get-css-variable(--container-gap);
@@ -14,7 +14,7 @@
   }
 
   &__logo {
-    height: 6rem;
+    height: 5rem;
     width: auto;
 
     @include breakpoint('sm') {
@@ -22,9 +22,43 @@
     }
   }
 
+  &__navigation {
+    order: 2;
+    position: relative;
+
+    @include breakpoint('sm') {
+      order: -1;
+    }
+
+    .site-navigation {
+      display: none;
+      inset: calc(100% + 1rem) 0 auto auto;
+      position: absolute;
+
+      @include breakpoint('sm') {
+        display: flex;
+        inset: initial;
+        position: relative;
+      }
+    }
+  }
+
+  &__toggle {
+    @include breakpoint('sm') {
+      display: none;
+    }
+
+    &[aria-expanded='true'] + .site-navigation {
+      display: flex;
+    }
+  }
+
   &__helper {
     display: flex;
-    flex-direction: column;
     gap: spacer('m');
+
+    @include breakpoint('sm') {
+      flex-direction: column;
+    }
   }
 }

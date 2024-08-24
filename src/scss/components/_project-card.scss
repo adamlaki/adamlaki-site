@@ -8,7 +8,7 @@
   border: 1px solid color('border');
   border-radius: var(--border-radius);
   color: color('text');
-  padding: spacer-clamp('m', 'l');
+  padding: spacer-clamp(2.25rem, 'l') spacer-clamp('m', 'l');
   text-decoration: none;
 
   &__counter {

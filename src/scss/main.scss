@@ -8,7 +8,7 @@
 
 :root {
   @include set-css-variable((
-    --container-width: config('container-width', $layout, false),
+    --container-width: config('container-inline-size', $layout, false),
     --container-gap: spacer-clamp('s', 'l')
   ));
 }

@@ -1,7 +1,19 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .site-navigation {
+  border: 1px solid color('border');
+  border-radius: config('border-radius-sm', $display);
+  background-color: hsl(0deg 0% 100%);
   font-family: config('font-family-heading', $typography);
+  padding: spacer('m');
+  text-align: end;
+
+  @include breakpoint('sm') {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    text-align: start;
+  }
 
   ul {
     @include clear-list;

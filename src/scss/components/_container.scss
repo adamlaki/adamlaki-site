@@ -3,12 +3,12 @@
 .container {
   @include layout-center(
     get-css-variable(--container-gap),
-    get-css-variable(--container-width)
+    get-css-variable(--container-inline-size)
   );
 
   &--wide {
     @include set-css-variable((
-      --container-width: 100%
+      --container-inline-size: 100%
     ));
   }
 }

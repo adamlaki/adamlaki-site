@@ -10,7 +10,7 @@
     "sass:compile": "sass --load-path=node_modules --load-path=scss --no-source-map --style=compressed src/scss:src/css",
     "sass:fix": "stylelint src/scss/**/*.scss --fix",
     "sass:lint": "stylelint src/scss/**/*.scss",
-    "start": "npm-run-all --parallel eleventy:serve sass:compile"
+    "start": "npm-run-all --parallel eleventy:serve sass:dev"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",

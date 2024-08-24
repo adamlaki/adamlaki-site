@@ -1,12 +1,16 @@
 @use 'sprucecss/scss/spruce' with (
-  // #130842
-  $color-black: hsl(0 0% 0%),
-  $color-primary: rgb(0, 102, 255),
+  $color-black: hsl(0deg 0% 0%),
+  $color-primary: hsl(216deg 100% 50%),
+  $color-secondary: hsl(216deg 100% 97%),
   $colors: (
-    base: (
-      'text': rgb(93, 99, 100),
+    'base': (
+      'text': hsl(189deg 4% 38%),
     ),
-    prism: (
+    'btn': (
+      'secondary-foreground': hsl(216deg 100% 20%),
+      'secondary-background-hover': hsl(216deg 100% 97%),
+    ),
+    'prism': (
       'color': hsl(243 14% 29%),
       'background': hsl(0 0% 98%),
       'comment': hsl(225 14% 46%),
@@ -26,7 +30,7 @@
   ),
   $generators: (
     'form': (
-      'btn': false,
+      'btn': true,
       'file-btn': false,
       'form-check': false,
       'form-control': true,
@@ -41,14 +45,11 @@
     ),
   ),
   $layout: (
-    'container-width': 50rem,
+    'container-inline-size': 50rem,
   ),
   $settings: (
     'hyphens': false,
     'prefix': 'adam',
-  ),
-  $transition: (
-    'duration': 0,
   ),
   $typography: (
     'font-family-base': #{'Figtree', sans-serif},
