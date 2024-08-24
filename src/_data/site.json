@@ -1,13 +1,11 @@
 {
   "en": {
     "name": "Adam Laki",
-    "profession": "Front-end Developer",
-    "slogen": "Front-end developer and accessibility specialist."
+    "profession": "Front-end Developer"
   },
   "hu": {
     "name": "Laki Ádám",
-    "profession": "Front-end fejlesztő",
-    "slogen": "Front-end fejlesztő és accessibility szakértő."
+    "profession": "Front-end fejlesztő"
   },
   "url": "https://adamlaki.com",
   "email": "info@adamlaki.com",
