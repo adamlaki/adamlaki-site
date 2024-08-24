@@ -8,6 +8,7 @@
   justify-content: space-between;
 
   @include breakpoint('sm') {
+    align-items: start;
     flex-direction: column;
     min-height: calc(100vh - #{get-css-variable(--container-gap)} * 2);
     position: sticky;
