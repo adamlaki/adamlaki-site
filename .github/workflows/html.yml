@@ -16,7 +16,7 @@ concurrency:
     cancel-in-progress: true
 
 jobs:
-    typos_check:
+    validator:
         name: "Validator"
         runs-on: "ubuntu-22.04"
         timeout-minutes: 1
@@ -59,6 +59,6 @@ jobs:
             name: "Build website"
             run: "npm run eleventy:build"
         -
-            name: "Run validator"
+            name: "Run validator on the frontpage"
             run: |
                 java -jar "${{ runner.temp }}/validator/vnu.jar" dist/index.html
