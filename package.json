@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "delete:dist": "del-cli --force dist",
     "eleventy:serve": "npx eleventy --serve",
