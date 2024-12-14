@@ -37,7 +37,7 @@
     svg {
       --dimension: 1.75rem;
 
-      background-color: color('heading');
+      background-color: color('primary');
       border-radius: config('border-radius-sm', $display);
       color: hsl(0 0% 100%);
       flex-shrink: 0;

@@ -1,0 +1,27 @@
+{% extends "layouts/base.html" %}
+
+{% set postListItems = posts %}
+
+{% if collections[ tag ] %}
+  {% set postListItems = collections[tag].reverse() %}
+  {% set heroTitle = 'Posts tagged with: ' + tag %}
+{% endif %}
+
+{% block content %}
+  <div class="l-page l-page--bsa">
+    <img class="l-page__logo" src="/img/bite-sized-a11y-logo.svg" alt="{{ site[lang].name }}" height="156" width="45">
+    <h1 class="l-page__title">{{ title }}</h1>
+
+    <div class="post-content">
+      <p>{{ description | safe }}</p>
+    </div>
+
+    <div class="l-page__list">
+      {% include "partials/bsa-list.html" %}
+
+      {% if not tag %}
+        {% include "partials/pagination.html" %}
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

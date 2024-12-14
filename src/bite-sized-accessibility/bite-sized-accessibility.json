@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/bsa-post.html",
+  "permalink": "/bite-sized-accessibility/{{ issue }}-{{ title | slug }}/index.html"
+}

@@ -25,6 +25,10 @@ module.exports = config => {
   config.addPassthroughCopy('./src/js/');
   config.addPassthroughCopy('./_redirects');
 
+  config.addCollection('bsa', collection => {
+    return [...collection.getFilteredByGlob('./src/bite-sized-accessibility/*.md')];
+  });
+
   config.setUseGitIgnore(false);
 
   return {

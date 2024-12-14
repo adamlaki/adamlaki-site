@@ -1,12 +1,24 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .l-page {
+  $this: &;
+
   margin-inline: auto;
 
   &--tools {
     .accordion-list {
       margin-block-start: spacer('l');
       max-width: 40rem;
+    }
+  }
+
+  &__logo {
+    block-size: 3rem;
+    inline-size: auto;
+    margin-block-start: spacer-clamp('m', 'l');
+
+    + #{$this}__title {
+      margin-block-start: spacer('m');
     }
   }
 
