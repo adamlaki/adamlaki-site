@@ -2,6 +2,7 @@
 
 {% block content %}
   <div class="l-page">
+    <img class="l-page__logo" src="/img/bite-sized-a11y-logo.svg" alt="{{ site[lang].name }}" height="156" width="45">
     <h1 class="l-page__title">{{ title }}</h1>
 
     <div class="post-content">
@@ -21,10 +22,9 @@
       </div>
     {% endif %}
 
-    {% if github %}
-      <div class="edit-on-github">
-        <a href="{{ github }}" >Edit on GitHub</a>
-      </div>
-    {% endif %}
+    <div class="l-page__footer"">
+      <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+      {% include "partials/tags.html" %}
+  </div>
   </div>
 {% endblock %}

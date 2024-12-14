@@ -32,10 +32,17 @@
       font-size: responsive-font-size(4.25rem, 40, '5vw');
     }
   }
-
   &__list {
     @include layout-stack('l');
     @include clear-list;
+    margin-block-start: spacer('l');
+  }
+
+  &__footer{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: spacer('m');
     margin-block-start: spacer('l');
   }
 }

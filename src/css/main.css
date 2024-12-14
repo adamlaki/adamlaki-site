@@ -1176,23 +1176,12 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 .l-page__list > * + * {
   margin-block-start: 3rem;
 }
-
-.l-post {
-  margin-inline: auto;
-}
-.l-post__title {
-  font-family: Figtree, sans-serif;
-  font-size: clamp(2.55rem, 5vw, 4.25rem);
-  line-height: 1.2;
-  margin-block: clamp(1.5rem, 5vw, 3rem) 1.5rem;
-}
-.l-post__meta {
+.l-page__footer {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  font-family: Figtree, sans-serif;
   gap: 1.5rem;
-  margin-block-end: 1.5rem;
+  margin-block-start: 3rem;
 }
 
 .l-404 {
@@ -1822,10 +1811,6 @@ pre[class*=language-] {
 }
 .resources li::marker {
   color: var(--adam-base-color-heading);
-}
-
-.edit-on-github {
-  margin-block-start: 3rem;
 }
 
 .form-group-list > * {

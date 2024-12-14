@@ -16,7 +16,7 @@ projects:
       url: "https://root.conedevelopment.com/"
       description: "Root egy bővíthető Laravel adminisztrációs csomag applikációkhoz."
     - title: "Byte-Sizes Acessibility"
-      url: "https://bite-sized-a11y.com/"
+      url: "https://adamlaki.com/bite-sized-accessibility/"
       description: "Tanulj az akadálymentesítésről rövid és tömör cikkek segítségével (kevesebb, mint 150 szóban)."
 ---
 

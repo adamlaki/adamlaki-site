@@ -15,7 +15,7 @@ projects:
       url: "https://sprucecss.com"
       description: "A low-level, lightweight and modern CSS design system, authoring tool built on Sass."
     - title: "Byte-Sizes Acessibility"
-      url: "https://bite-sized-a11y.com/"
+      url: "https://adamlaki.com/bite-sized-accessibility/"
       description: "Learn something new about accessibility with short and solid articles (less than 150 words)."
     - title: "Root"
       url: "https://root.conedevelopment.com/"
