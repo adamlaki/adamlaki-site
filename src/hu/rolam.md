@@ -4,7 +4,7 @@ layout: "layouts/page.html"
 metaDesc: "Ismerd meg engem, mint személyt és szakembert."
 ---
 
-Helló, Ádám vagyok, akadálymentes, modern weboldalakat és alkalmazásokat készítek. Gatsby-vel, 11ty-vel és WordPress-el dologozok.
+Helló, Ádám vagyok, akadálymentes, modern weboldalakat és alkalmazásokat készítek. Gatsby-vel, 11ty-vel és WordPress-el dolgozok.
 
 Szabadúszó vagyok, aki általában elérhető új projektekre. Ha van egy projekt ötleted, amit szeretnél megvalósítani, nyugodtan írj nekem egy e-mailt ([info@adamlaki.com](mailto:info@adamlaki.com)). [Gergővel](https://twitter.com/_iamgergo), egy tehetséges Laravel és Vue.js fejlesztővel dolgozom. Ketten, több - többnyire open-source - projektet viszünk.
 
@@ -26,18 +26,18 @@ A böngészőben tervezek, amit nem tudok eléggé ajánlani. Egy kicsit más me
 
 Szeretem a HTML-t és a CSS-t. Szeretem bennük, hogy mennyire egyszerű elsajátítani az alapokat és milyen nehéz mesteri szinten érteni hozzájuk. Mindig lehet valami újat tanulni.
 
-Gyakran írok egyszerű JavaScriptet. Általában Vue.js-t használunk, ha szükségük van JS keretrendszerre, de elkezdtem React-al is foglalkozni (főként még Gatsby miatt, amikor tanultam).
+Gyakran írok egyszerű JavaScriptet. Általában Vue.js-t használunk, ha szükségük van JS keretrendszerre, de elkezdtem React-tal is foglalkozni (főként még Gatsby miatt, amikor tanultam).
 
 
 ## WordPress
 
-A WordPress egy olyan eszköz, amit elég gyakran használok. Amikor az a cél, hogy egy jól használható és szerkeszthető portfolió oldalt készítsünk a WP mindig egy jó választás.
+A WordPress egy olyan eszköz, amit elég gyakran használok. Amikor az a cél, hogy egy jól használható és szerkeszthető portfólió oldalt készítsünk a WP mindig egy jó választás.
 
 Mi mindig csak alap WordPress-el dolgozunk, a lehető legkevesebb függőséggel. Az utóbbi időben kezdtem el beleásni magam az egyedi Gutenberg blokk építésbe és a teljes oldalas szerkesztésbe.
 
 ## Statikus oldalak
 
-A statikus oldalak nagyon mennek az utóbbi időben. Sok esetben - _amikor nincs szüksége napi tartalom módosításra_ a leghatékonyabb megoldása egy weboldalnak. Lehetőségeik természetesen végtlenek, így akár egy CMS-re is ráköthetőek, nagy teljesítményű oldalak létrehozásához.
+A statikus oldalak nagyon mennek az utóbbi időben. Sok esetben - _amikor nincs szüksége napi tartalom módosításra_ a leghatékonyabb megoldása egy weboldalnak. Lehetőségeik természetesen végtelenek, így akár egy CMS-re is ráköthetőek, nagy teljesítményű oldalak létrehozásához.
 
 Jelenleg az a 11ty nevű rendszer a favorit, ami mindig lenyűgöz, amikor vele dolgozok.
 

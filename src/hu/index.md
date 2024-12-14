@@ -1,7 +1,7 @@
 ---
 title: "Front-end fejlesztő"
 layout: "layouts/home.html"
-metaDesc: "Helló, Ádám vagyok, front-end fejlesztő. Akadálymentes, modern weboldalakat és alkalmazásokat készítek. 11ty-vel és WordPress-el dologozok."
+metaDesc: "Helló, Ádám vagyok, front-end fejlesztő. Akadálymentes, modern weboldalakat és alkalmazásokat készítek. 11ty-vel és WordPress-el dolgozok."
 coverImage: "/img/front-cover.svg"
 projects:
   title: "Projektek"
@@ -20,4 +20,4 @@ projects:
       description: "Tanulj az akadálymentesítésről rövid és tömör cikkek segítségével (kevesebb, mint 150 szóban)."
 ---
 
-# Helló, Ádám vagyok, front-end és WordPress fejlesztő. **Akadálymentes, modern weboldalakat és alkalmazásokat készítek.** 11ty-vel és WordPress-el dologozok.
+# Helló, Ádám vagyok, front-end és WordPress fejlesztő. **Akadálymentes, modern weboldalakat és alkalmazásokat készítek.** 11ty-vel és WordPress-el dolgozok.

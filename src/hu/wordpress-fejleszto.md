@@ -6,7 +6,7 @@ metaDesc: "Magas minőségű, vállalati WordPress fejlesztés."
 
 Megbízható és nagy tudással rendelkező WordPress fejlesztőt keresel? Rám, ránk számíthatsz. Megfelelő, más előtt is vállalható minőségben készítjük el az egyedi WordPress oldalad.
 
-Egy [WordPress](https://hu.wordpress.org/) oldal elkészítése alapeseben nem nehéz. Az egész rendszernek az alap célja, hogy bárki el tudjon készíteni egy egyszerű weboldalt. Akik komolyabb szakmai tudás nélkül is érzik magukban a kihívást, hogy neki álljanak és elkészítsék a saját oldalukat azok nagyon sokat tanulhatnak és sokat spórolhatnak.
+Egy [WordPress](https://hu.wordpress.org/) oldal elkészítése alapesetben nem nehéz. Az egész rendszernek az alap célja, hogy bárki el tudjon készíteni egy egyszerű weboldalt. Akik komolyabb szakmai tudás nélkül is érzik magukban a kihívást, hogy neki álljanak és elkészítsék a saját oldalukat azok nagyon sokat tanulhatnak és sokat spórolhatnak.
 
 A WP kettős oldala egy jó funkció, ami okozhat problémát is. Egy weboldal nem pár hónapra készül, általában több évig kell támogatnunk. Ha nem értünk hozzá a megfelelő mértékben - és már egy komplexebb rendszerre van igényünk - akkor biztosan lesznek olyan problémáink amiket nem tudunk majd megoldani.
 
@@ -16,7 +16,7 @@ A következőkben összegzem, hogy miben tudok én segíteni.
 
 ## Hogyan dolgozok
 
-- Csak egyedi WordPress sablont készítek. Nem használok 3rd-party buildereket, sem vásárolt témát. Ennek a legnagyobb előnye, hogy csak az kerül az oldalba, amire feltétlen szükség van, valamint tudom hosszútávon támogatni.
+- Csak egyedi WordPress sablont készítek. Nem használok 3rd-party builder-eket, sem vásárolt témát. Ennek a legnagyobb előnye, hogy csak az kerül az oldalba, amire feltétlen szükség van, valamint tudom hosszú távon támogatni.
 - Csak specifikáció alapján dolgozok. Még egy kisebb, portfólió oldal esetén is rengeteg munka van. Ezért a fejlesztési leírás elkészítése mindig az első lépés.
 - Modern UI tervet készítek az előre meghatározott igények során.
 - Csak a szükséges és megbízható bővítményeket használom így csökkentem a felesleges függőségeket, valamint teszem az oldalt könnyebben karbantarthatóvá.
@@ -33,7 +33,7 @@ Ha érdekel egy példa munkánk nézd meg az open source [WooCommerce SimplePay 
 
 WP esetében fontos meghúzni azt a határt, amin már nem érdemes átmenni bonyolultságban és fenntarthatóságban. Ez még mindig egy jó részt legacy CMS - _amit az utóbbi időben nagyon komolyan fejlesztenek_ -, aminek számos megkötése van.
 
-Nem mindegy, hogy valamit WordPress-ben foltozunk össze, vagy megírjuk Laravel-ben. Az előbbi rengeteg megkötést jelenthet egyedi logikában, amit hosszútávon üzembiztosan nem nagyon tudunk és érdemes kiszolgálni.
+Nem mindegy, hogy valamit WordPress-ben foltozunk össze, vagy megírjuk Laravel-ben. Az előbbi rengeteg megkötést jelenthet egyedi logikában, amit hosszú távon üzembiztosan nem nagyon tudunk és érdemes kiszolgálni.
 
 Ezért ha olyan megkeresést kapunk, amiben sok az egyedi megoldás és úgy látjuk, hogy kezelhetetlen lesz WP-ben, akkor csak egyedi, Laravel alapú megvalósításra tudunk ajánlatot adni.
 
