@@ -699,7 +699,7 @@ strong {
 }
 
 .lead {
-  font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
+  font-size: clamp(1.2rem, 2vw, 2rem);
 }
 
 .hidden,
@@ -1155,7 +1155,7 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   margin-block-start: 1.5rem;
 }
 .l-page__title {
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(2rem, 4vw, 5rem);
   line-height: 1.2;
   margin-block: clamp(1.5rem, 5vw, 3rem) 1.5rem;
 }
@@ -1763,7 +1763,7 @@ pre[class*=language-] {
 }
 .post-content > p:first-child {
   color: var(--adam-base-color-heading);
-  font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
+  font-size: clamp(1.2rem, 2vw, 2rem);
   line-height: 1.5;
   max-width: 100%;
 }

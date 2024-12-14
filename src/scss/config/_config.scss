@@ -55,7 +55,7 @@
     'font-family-base': #{'Figtree', sans-serif},
     'font-family-heading': #{'Figtree', sans-serif},
     'font-size-base': 1.0375rem,
-    'font-size-lead': clamp(1.2rem, 2vw + 1rem, 2rem),
+    'font-size-lead': clamp(1.2rem, 2vw, 2rem),
     'line-height-heading': calc(2px + 2.25ex + 2px),
   ),
 );

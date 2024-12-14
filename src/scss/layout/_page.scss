@@ -23,7 +23,7 @@
   }
 
   &__title {
-    font-size: responsive-font-size(5rem, 40, '5vw');
+    font-size: responsive-font-size(5rem, 60, '4vw');
     line-height: config('line-height-sm', $typography);
     margin-block: spacer-clamp('m', 'l') spacer('m');
 
