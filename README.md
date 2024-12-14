@@ -8,6 +8,8 @@
 
 11ty (v3 with ESM) website for [adamlaki.com](https://adamlaki.com).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2dc9d333-9b59-4a9d-a16f-36b74dd45f8d/deploy-status)](https://app.netlify.com/sites/adamlaki/deploys)
+
 ## Run Development
 
 - Install the dependencies with `npm install`.
