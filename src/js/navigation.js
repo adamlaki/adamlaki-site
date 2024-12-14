@@ -5,7 +5,7 @@
 
   if (!menu || typeof button === 'undefined') return;
 
-  function widthChange(query) {
+  function widthChange (query) {
     button.setAttribute('aria-expanded', !query.matches);
   }
 
