@@ -14,7 +14,7 @@ projects:
     - title: "Spruce CSS"
       url: "https://sprucecss.com"
       description: "A low-level, lightweight and modern CSS design system, authoring tool built on Sass."
-    - title: "Byte-Sized Accessibility"
+    - title: "Bite-Sized Accessibility"
       url: "https://adamlaki.com/bite-sized-accessibility/"
       description: "Learn something new about accessibility with short and solid articles (less than 150 words)."
     - title: "Root"
