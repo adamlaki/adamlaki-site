@@ -4,18 +4,17 @@
   --border-radius: clamp(0.5rem, 2vw, 3rem);
 
   @include a11y-card-link('.project-card__link', true);
-  @include layout-stack('xs');
   border: 1px solid color('border');
   border-radius: var(--border-radius);
   color: color('text');
+  display: flex;
+  flex-direction: column;
+  gap: spacer('s');
   padding: spacer-clamp(2.25rem, 'l') spacer-clamp('m', 'l');
   text-decoration: none;
 
-  &__counter {
-    color: color('primary');
-    font-size: font-size('h3');
-    font-weight: 700;
-    line-height: 1;
+  > * {
+    margin-block: 0;
   }
 
   &__title {
@@ -31,5 +30,13 @@
     &:focus {
       color: color('heading');
     }
+  }
+
+  &__counter {
+    color: color('primary');
+    font-size: font-size('h3');
+    font-weight: 700;
+    line-height: 1;
+    margin-block-start: auto;
   }
 }

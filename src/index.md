@@ -1,8 +1,9 @@
 ---
 title: "Front-end Developer"
 layout: "layouts/home.html"
-metaDesc: "Hey, I’m Adam! I’m a passionate, accessibility-focused front-end developer. I develop with Gatsby, 11ty, and WordPress. I like to learn and try out new things in my field."
+metaDesc: "Hey, I’m Adam! I’m a passionate, accessibility-focused front-end developer. I develop with 11ty, and WordPress. I like to learn and try out new things in my field."
 coverImage: "/img/front-cover.svg"
+coverVideo: "/video/front-cover.mp4"
 coverAlt: "An abstract bauhaus illustration with basic geometric formations."
 projects:
   title: "Projects"
@@ -21,4 +22,4 @@ projects:
       description: "Root is an admin package for Laravel applications with extension support."
 ---
 
-# Hey, I’m Adam! **I’m a passionate, accessibility-focused front-end developer.** I develop with Gatsby, 11ty, and WordPress. I like to learn and try out new things in my field.
+# Hey, I’m Adam! **I’m a passionate, accessibility-focused front-end developer.** I develop with 11ty, and WordPress. I like to learn and try out new things in my field.

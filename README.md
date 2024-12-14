@@ -10,5 +10,5 @@
 
 ## Run Development
 
-- Install the dependencies with **"npm install"**.
-- Run **"npm start"** for the dev server and compilation.
+- Install the dependencies with `npm install`.
+- Run `npm start` for the dev server and compilation.

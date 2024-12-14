@@ -318,11 +318,11 @@ template {
   --adam-base-color-background: hsl(0, 0%, 100%);
   --adam-base-color-blockquote-border: hsl(216, 100%, 50%);
   --adam-base-color-border: hsl(215, 63%, 93%);
-  --adam-base-color-code-background: #f0f6ff;
+  --adam-base-color-code-background: hsl(216, 100%, 97%);
   --adam-base-color-code-foreground: hsl(0, 0%, 0%);
   --adam-base-color-heading: hsl(0, 0%, 0%);
   --adam-base-color-link: hsl(216, 100%, 50%);
-  --adam-base-color-link-hover: #0052cc;
+  --adam-base-color-link-hover: hsl(216, 100%, 40%);
   --adam-base-color-mark-background: hsl(50, 100%, 80%);
   --adam-base-color-mark-foreground: hsl(0, 0%, 0%);
   --adam-base-color-marker: hsl(216, 100%, 50%);
@@ -334,13 +334,13 @@ template {
 
 :root {
   --adam-btn-color-primary-background: hsl(216, 100%, 50%);
-  --adam-btn-color-primary-background-hover: #0052cc;
+  --adam-btn-color-primary-background-hover: hsl(216, 100%, 40%);
   --adam-btn-color-primary-foreground: hsl(0, 0%, 100%);
-  --adam-btn-color-primary-shadow: #b3d1ff;
+  --adam-btn-color-primary-shadow: hsl(216, 100%, 85%);
   --adam-btn-color-secondary-background: hsl(216, 100%, 97%);
   --adam-btn-color-secondary-background-hover: hsl(216, 100%, 97%);
   --adam-btn-color-secondary-foreground: hsl(216, 100%, 20%);
-  --adam-btn-color-secondary-shadow: white;
+  --adam-btn-color-secondary-shadow: hsl(216, 100%, 132%);
 }
 
 :root {
@@ -355,21 +355,21 @@ template {
   --adam-form-color-group-label-background: hsl(210, 60%, 98%);
   --adam-form-color-group-label-foreground: hsl(208, 9%, 42%);
   --adam-form-color-invalid: hsl(0, 71%, 51%);
-  --adam-form-color-invalid-focus-ring: rgba(219, 41, 41, 0.25);
+  --adam-form-color-invalid-focus-ring: hsla(0, 71%, 51%, 0.25);
   --adam-form-color-label: hsl(0, 0%, 0%);
   --adam-form-color-legend: hsl(0, 0%, 0%);
   --adam-form-color-placeholder: hsl(208, 7%, 40%);
   --adam-form-color-range-thumb-background: hsl(216, 100%, 50%);
   --adam-form-color-range-thumb-focus-ring: hsl(216, 100%, 50%);
   --adam-form-color-range-track-background: hsl(215, 63%, 93%);
-  --adam-form-color-ring-focus: rgba(0, 102, 255, 0.25);
+  --adam-form-color-ring-focus: hsla(216, 100%, 50%, 0.25);
   --adam-form-color-select-foreground: hsl(0, 0%, 0%);
   --adam-form-color-switch-background: hsl(216, 100%, 50%);
   --adam-form-color-switch-focus-ring: hsl(216, 100%, 50%);
   --adam-form-color-switch-foreground: hsl(0, 0%, 100%);
   --adam-form-color-text: hsl(208, 9%, 42%);
   --adam-form-color-valid: hsl(150, 100%, 33%);
-  --adam-form-color-valid-focus-ring: rgba(0, 168, 84, 0.25);
+  --adam-form-color-valid-focus-ring: hsla(150, 100%, 33%, 0.25);
 }
 
 :root {
@@ -1365,6 +1365,16 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 .site-hero > * + * {
   margin-block-start: 1.5rem;
 }
+.site-hero__video {
+  aspect-ratio: 10/4;
+  block-size: 22rem;
+  border: 0;
+  border-radius: 0.95rem;
+  margin-block-end: -1px;
+  max-inline-size: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .site-hero__introduction > * {
   margin-block-end: 0;
   margin-block-start: 0;
@@ -1385,6 +1395,9 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   border: 1px solid var(--adam-base-color-border);
   border-radius: var(--border-radius);
   color: var(--adam-base-color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   padding: clamp(2.25rem, 5vw, 3rem) clamp(1.5rem, 5vw, 3rem);
   text-decoration: none;
 }
@@ -1395,17 +1408,7 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 }
 
 .project-card > * {
-  margin-block-end: 0;
-  margin-block-start: 0;
-}
-.project-card > * + * {
-  margin-block-start: 0.5rem;
-}
-.project-card__counter {
-  color: var(--adam-base-color-primary);
-  font-size: clamp(1.3779296875rem, 2vw + 1rem, 1.62109375rem);
-  font-weight: 700;
-  line-height: 1;
+  margin-block: 0;
 }
 .project-card__title {
   font-family: Figtree, sans-serif;
@@ -1417,6 +1420,13 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 }
 .project-card__link:hover, .project-card__link:focus {
   color: var(--adam-base-color-heading);
+}
+.project-card__counter {
+  color: var(--adam-base-color-primary);
+  font-size: clamp(1.3779296875rem, 2vw + 1rem, 1.62109375rem);
+  font-weight: 700;
+  line-height: 1;
+  margin-block-start: auto;
 }
 
 .container {

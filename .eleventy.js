@@ -19,6 +19,7 @@ module.exports = config => {
   config.addPlugin(syntaxHighlight);
 
   config.addPassthroughCopy('./src/img/');
+  config.addPassthroughCopy('./src/video/');
   config.addPassthroughCopy('./src/css/');
   config.addPassthroughCopy('./src/fonts/');
   config.addPassthroughCopy('./src/js/');

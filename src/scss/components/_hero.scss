@@ -3,6 +3,17 @@
 .site-hero {
   @include layout-stack('m');
 
+  &__video {
+    aspect-ratio: 10 / 4;
+    block-size: 22rem;
+    border: 0;
+    border-radius: config('border-radius-lg', $display);
+    margin-block-end: -1px;
+    max-inline-size: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
   &__introduction {
     @include layout-stack('m');
 
