@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/courses-to-take.png'
 date: '2022-07-26'
 issue: 7
 tags: 'resources'
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/courses-to-take.md'
 ---
 
 - [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891) - A short, introductory accessibility course for beginners from Google.

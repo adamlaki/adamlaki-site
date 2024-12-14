@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/write-better-alt-text.png'
 date: '2022-07-16'
 issue: 4
 tags: 'media'
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/write-better-alt-text.md'
 resources:
   - title: 'Accessibility: Image Alt text best practices'
     url: https://help.siteimprove.com/support/solutions/articles/80000863904-accessibility-image-alt-text-best-practices

@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/use-the-webaim-million-accessibility-evalua
 date: '2022-08-23'
 issue: 9
 tags: 'resources'
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/use-the-webaim-million-accessibility-evaluation-data.md'
 resources:
   - title: 'The WebAIM Million'
     url: 'https://webaim.org/projects/million/'

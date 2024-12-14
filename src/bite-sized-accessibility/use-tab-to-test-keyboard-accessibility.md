@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/use-tab-to-test-keyboard-accessibility.png'
 date: '2022-08-06'
 issue: 8
 tags: 'testing'
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/use-tab-to-test-keyboard-accessibility.md'
 resources:
   - title: 'Keyboard Accessibility'
     url: 'https://webaim.org/techniques/keyboard/'

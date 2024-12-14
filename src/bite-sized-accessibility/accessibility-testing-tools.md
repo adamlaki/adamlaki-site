@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/accessibility-testing-tools.png'
 date: '2022-09-03'
 issue: 10
 tags: ['testing', 'resources']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/accessibility-testing-tools.md'
 ---
 
 We can use testing tools to catch up to 40% of the accessibility errors in bulk.

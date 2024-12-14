@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/books-to-read.png'
 date: '2022-07-22'
 issue: 5
 tags: 'resources'
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/books-to-read.md'
 ---
 
 - [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) - This is the best book to start with. Not too heavy but thorough, it will give you a strong foundation.

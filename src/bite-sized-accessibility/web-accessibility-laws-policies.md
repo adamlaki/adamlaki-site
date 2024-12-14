@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/web-accessibility-laws-and-policies.png'
 date: '2022-07-14'
 issue: 2
 tags: 'laws'
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/web-accessibility-laws-policies.md'
 resources:
   - title: 'ADA'
     url: 'https://beta.ada.gov/'

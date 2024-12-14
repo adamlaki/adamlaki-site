@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/watch-out-for-a-link-and-its-surrounding-te
 date: '2023-03-06'
 issue: 18
 tags: ['color', 'contrast']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/watch-out-for-a-link-and-its-surrounding-text-contrast.md'
 resources:
   - title: 'Link Contrast Checker'
     url: 'https://webaim.org/resources/linkcontrastchecker/'

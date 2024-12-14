@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/blogs-to-read.png'
 date: '2022-07-24'
 issue: 6
 tags: 'resources'
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/blogs-to-read.md'
 ---
 
 - [Adrian Roselli](https://adrianroselli.com/posts) - Adrian is one of my favorite experts in the field.

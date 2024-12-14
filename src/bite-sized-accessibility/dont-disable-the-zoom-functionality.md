@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/dont-disable-the-zoom-functionality.png'
 date: '2022-11-12'
 issue: 14
 tags: 'design'
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/dont-disable-the-zoom-functionality.md'
 resources:
   - title: 'Visual Impairment & Blindness Global Data & Statistics'
     url: 'https://www.lasereyesurgeryhub.co.uk/data/visual-impairment-blindness-data-statistics/'

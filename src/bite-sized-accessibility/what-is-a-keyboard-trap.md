@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/what-is-a-keyboard-trap.png'
 date: '2022-09-13'
 issue: 11
 tags: ['testing']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/what-is-a-keyboard-trap.md'
 resources:
   - title: 'What are keyboard traps?'
     url: 'https://www.nomensa.com/blog/what-are-keyboard-traps'

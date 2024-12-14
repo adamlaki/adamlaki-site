@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/add-a-proper-value-to-the-alt-attribute.png
 date: '2022-07-12'
 issue: 1
 tags: 'media'
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/add-a-proper-value-to-the-alt-attribute.md'
 resources:
   - title: 'Alt Text: Why It’s Important For Accessibility & SEO'
     url: 'https://moz.com/learn/seo/alt-text'

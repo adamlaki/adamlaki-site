@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/what-is-aria.png'
 date: '2022-10-07'
 issue: 12
 tags: ['standards', 'aria']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/what-is-aria.md'
 resources:
   - title: 'WAI-ARIA Overview'
     url: 'https://www.w3.org/WAI/standards-guidelines/aria/'

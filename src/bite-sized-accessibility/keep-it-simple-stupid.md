@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/keep-it-simple-stupid.png'
 date: '2023-04-10'
 issue: 19
 tags: ['design']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/keep-it-simple-stupid.md'
 ---
 
 In my opinion, accessibility is an area that rewards simplicity the best. On the web, you can solve the same thing in many ways. If you design with [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/), you will have an opinionated guide to form your creative thinking.

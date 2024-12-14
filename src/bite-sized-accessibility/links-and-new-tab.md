@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/links-and-new-tab.png'
 date: '2023-05-14'
 issue: 20
 tags: ['design']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/links-and-new-tab.md'
 resources:
   - title: 'External links: In or Out'
     url: 'https://www.digitala11y.com/external-links-in-or-out/'

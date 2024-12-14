@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/what-is-accessibility.png'
 date: '2022-10-28'
 issue: 13
 tags: ['generic']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/what-is-accessibility.md'
 resources:
   - title: 'What is accessibility?'
     url: 'https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility'

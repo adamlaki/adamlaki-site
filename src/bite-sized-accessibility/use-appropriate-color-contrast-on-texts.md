@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/use-appropriate-color-contrast-on-texts.png
 date: '2022-12-21'
 issue: 15
 tags: ['color', 'contrast']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/use-appropriate-color-contrast-on-texts.md'
 resources:
   - title: '1.4.3 Minimum contrast (AA)'
     url: 'https://www.w3.org/TR/WCAG21/#contrast-minimum'

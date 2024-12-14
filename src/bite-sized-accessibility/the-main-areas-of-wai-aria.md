@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/the-main-areas-of-wai-aria.png'
 date: '2023-01-11'
 issue: 16
 tags: ['aria']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/the-main-areas-of-wai-aria.md'
 resources:
   - title: 'WAI-ARIA basics'
     url: 'https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics'

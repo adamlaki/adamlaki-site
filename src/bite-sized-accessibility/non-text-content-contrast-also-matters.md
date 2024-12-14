@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/non-text-content-contrast-also-matters.png'
 date: '2023-02-06'
 issue: 17
 tags: ['color', 'contrast']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/non-text-content-contrast-also-matters.md'
 resources:
   - title: 'Success Criterion 1.4.11 Non-text Contrast'
     url: 'https://www.w3.org/TR/WCAG21/#non-text-contrast'

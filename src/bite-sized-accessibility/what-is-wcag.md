@@ -5,7 +5,6 @@ socialImage: '/img/social-thumbnails/what-is-wcag.png'
 date: '2022-07-15'
 issue: 3
 tags: ['standards', 'wcag']
-github: 'https://github.com/conedevelopment/bite-sized-a11y/blob/master/src/posts/what-is-wcag.md'
 resources:
   - title: 'Web Content Accessibility Guidelines (WCAG) 2.1'
     url: 'https://www.w3.org/TR/WCAG21/'
