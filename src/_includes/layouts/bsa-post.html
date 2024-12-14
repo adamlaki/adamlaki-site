@@ -3,8 +3,28 @@
 {% block content %}
   <div class="l-page">
     <h1 class="l-page__title">{{ title }}</h1>
+
     <div class="post-content">
       {{ content | safe }}
     </div>
+
+    {% if resources %}
+      <div class="resources">
+        <h2 class="headline">Resources</h2>
+        <ol>
+          {% for item in resources %}
+            <li>
+              <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endif %}
+
+    {% if github %}
+      <div class="edit-on-github">
+        <a href="{{ github }}" >Edit on GitHub</a>
+      </div>
+    {% endif %}
   </div>
 {% endblock %}

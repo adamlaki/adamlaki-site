@@ -46,3 +46,16 @@
     border-radius: config('border-radius-sm', $display);
   }
 }
+
+.resources {
+  @include layout-stack('s');
+  margin-block-start: spacer('l');
+
+  li::marker {
+    color: color('heading');
+  }
+}
+
+.edit-on-github {
+  margin-block-start: spacer('l');
+}
