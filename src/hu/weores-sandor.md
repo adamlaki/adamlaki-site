@@ -71,7 +71,6 @@ vissza sose járnék, <br>
 anyám nélkül <br>
 mindig sírdogálnék.
 
-
 ## A galagonya
 
 Őszi éjjel <br>
